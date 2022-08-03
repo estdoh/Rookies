@@ -1,0 +1,3159 @@
+[
+    {
+        "id": 2,
+        "category": "Hora de trabajo",
+        "name": "HORA DE TRABAJO",
+        "description": "Diseño, asesoramiento, Reunión o supervisión de trabajos",
+        "price": "676"
+    },
+    {
+        "id": 3,
+        "category": "Adaptaciones",
+        "name": "ADAPTACIONES",
+        "description": "50% del valor original: Ejemplo:diseño de flyer 900 (100%) + adaptación X (50%)",
+        "price": "0"
+    },
+    {
+        "id": 4,
+        "category": "IDENTIDAD",
+        "name": "NUEVA IDENTIDAD CORPORATIVA",
+        "description": "Nuevo logotipo, Isotipo o Isologotipo + Manual de Uso y hasta 5 aplicaciones",
+        "price": "58266"
+    },
+    {
+        "id": 5,
+        "category": "IDENTIDAD",
+        "name": "NUEVO LOGOTIPO/ISOTIPO/IMAGOTIPO/ISOLOGO",
+        "description": "No incluye Manual de Uso ni aplicaciones",
+        "price": "23342"
+    },
+    {
+        "id": 6,
+        "category": "IDENTIDAD",
+        "name": "REDISEÑO IDENTIDAD CORPORATIVA",
+        "description": "Creación de un nuevo logo en reemplazo de uno ya existente + Manual de Uso y hasta 5 ap.",
+        "price": "58266"
+    },
+    {
+        "id": 7,
+        "category": "IDENTIDAD",
+        "name": "REDISEÑO LOGOTIPO/ISOTIPO/IMAGOTIPO/ISOLOGO",
+        "description": "No incluye Manual de Uso ni aplicaciones",
+        "price": "21411"
+    },
+    {
+        "id": 8,
+        "category": "IDENTIDAD",
+        "name": "RESTYLING IDENTIDAD CORPORATIVA",
+        "description": "Optimización del estilo de un logo ya existente para mejorarlo o modernizarlo + Manual de Uso y hasta 5 ap.",
+        "price": "48438"
+    },
+    {
+        "id": 9,
+        "category": "IDENTIDAD",
+        "name": "RESTYLING LOGOTIPO/ISOTIPO/IMAGOTIPO/ISOLOGO",
+        "description": "No incluye Manual de Uso ni aplicaciones",
+        "price": "17726"
+    },
+    {
+        "id": 10,
+        "category": "IDENTIDAD",
+        "name": "MANUAL DE NORMAS DE USO",
+        "description": "Para una marca existente.",
+        "price": "15620"
+    },
+    {
+        "id": 11,
+        "category": "IDENTIDAD",
+        "name": "IDENTIDAD EFÍMERA",
+        "description": "Identidad original, adaptada. EJ: aniversario, evento, concurso, etc / uso estacional, eventual",
+        "price": "19130"
+    },
+    {
+        "id": 12,
+        "category": "IDENTIDAD",
+        "name": "IDENTIDAD DE UN PRODUCTO",
+        "description": "Consumo masivo.",
+        "price": "31239"
+    },
+    {
+        "id": 13,
+        "category": "COMUNICACION",
+        "name": "NAMING CORPORATIVO/INSTITUCIONAL",
+        "description": "Desarrollo de un nombre de marca.",
+        "price": "11934"
+    },
+    {
+        "id": 14,
+        "category": "COMUNICACION",
+        "name": "NAMING PRODUCTO/EVENTO",
+        "description": "",
+        "price": "6318"
+    },
+    {
+        "id": 15,
+        "category": "COMUNICACION",
+        "name": "SLOGAN/LEMA",
+        "description": "Definición o \"manera de ser\" de una marca.",
+        "price": "6318"
+    },
+    {
+        "id": 16,
+        "category": "COMUNICACION",
+        "name": "CLAIM",
+        "description": "Descripción o beneficio que se le atribuye a un servicio o producto.",
+        "price": "6318"
+    },
+    {
+        "id": 17,
+        "category": "D. TEXTIL",
+        "name": "PRENDA ÚNICA",
+        "description": "remera, chomba, camisa o blusa con estampa/bordado",
+        "price": "5792"
+    },
+    {
+        "id": 18,
+        "category": "D. TEXTIL",
+        "name": "SISTEMA DE UNIFORME / VESTUARIO",
+        "description": "Hasta 5 categorías (con sus respectivas variables para hombre y mujer).",
+        "price": "31590"
+    },
+    {
+        "id": 19,
+        "category": "PAPELERIA",
+        "name": "PAPELERÍA BÁSICA",
+        "description": "Utilizando marca existente. Aplicación hasta en 5 piezas (tarjeta, sobre, firma mail, etc).",
+        "price": "18779"
+    },
+    {
+        "id": 20,
+        "category": "PAPELERIA",
+        "name": "PAPELERÍA COMERCIAL",
+        "description": "Factura, recibo, remito, anotadores, formularios, etc.",
+        "price": "9302"
+    },
+    {
+        "id": 21,
+        "category": "PAPELERIA",
+        "name": "DISEÑO DE TARJETAS PERSONALES",
+        "description": "",
+        "price": "4037"
+    },
+    {
+        "id": 22,
+        "category": "PAPELERIA",
+        "name": "HOJAS MEMBRETADAS",
+        "description": "",
+        "price": "4037"
+    },
+    {
+        "id": 23,
+        "category": "PAPELERIA",
+        "name": "SOBRES",
+        "description": "Tipo inglés, bolsa, etc.",
+        "price": "4037"
+    },
+    {
+        "id": 24,
+        "category": "PAPELERIA",
+        "name": "FIRMA O ENCABEZADO DE E-MAIL",
+        "description": "Imagen estática",
+        "price": "4037"
+    },
+    {
+        "id": 25,
+        "category": "PAPELERIA",
+        "name": "CARPETAS INSTITUCIONALES",
+        "description": "Tipo A3 plegada, con o sin solapas.",
+        "price": "8775"
+    },
+    {
+        "id": 27,
+        "category": "PAPELERIA",
+        "name": "CERTIFICADOS, INVITACIONES EMPRESARIALES O TARJETAS DE FIN DE AÑO",
+        "description": "Asistencia a un evento, reconocimiento, adjudicación de un premio, etc\t",
+        "price": "8424"
+    },
+    {
+        "id": 28,
+        "category": "PAPELERIA",
+        "name": "POSTAL",
+        "description": "Frente (imagen) y dorso (datos).",
+        "price": "6845"
+    },
+    {
+        "id": 29,
+        "category": "PUBLICIDAD",
+        "name": "FLYER/VOLANTE - SOLO FRENTE",
+        "description": "Solo Frente",
+        "price": "2984"
+    },
+    {
+        "id": 30,
+        "category": "PUBLICIDAD",
+        "name": "FLYER/VOLANTE - FRENTE Y DORSO",
+        "description": "Frente y dorso. No incluye fotografía (fotógrafo o banco de imágenes)",
+        "price": "4388"
+    },
+    {
+        "id": 31,
+        "category": "PUBLICIDAD",
+        "name": "FOLLETO DÍPTICO - UN PLIEGUE",
+        "description": "Frente y dorso, 1 pliegue",
+        "price": "6318"
+    },
+    {
+        "id": 32,
+        "category": "PUBLICIDAD",
+        "name": "FOLLETO TRÍPTICO - DOS PLIEGUES",
+        "description": "Frente y dorso, 2 pliegues",
+        "price": "7547"
+    },
+    {
+        "id": 33,
+        "category": "PUBLICIDAD",
+        "name": "BROCHURE",
+        "description": "Folleto de alta complejidad. Hasta 10 páginas/pliegos",
+        "price": "14216"
+    },
+    {
+        "id": 34,
+        "category": "PUBLICIDAD",
+        "name": "AVISO INSTITUCIONAL PARA DIARIO O REVISTA",
+        "description": "1/2 página o menos. Sin redacción.",
+        "price": "2106"
+    },
+    {
+        "id": 35,
+        "category": "PUBLICIDAD",
+        "name": "AVISO INSTITUCIONAL PARA DIARIO O REVISTA",
+        "description": "1 pagina o doble página. Sin redacción.",
+        "price": "3159"
+    },
+    {
+        "id": 36,
+        "category": "PUBLICIDAD",
+        "name": "AVISO PUBLICITARIO PARA DIARIO O REVISTA",
+        "description": "1/2 página o menos. Sin redacción.",
+        "price": "3686"
+    },
+    {
+        "id": 37,
+        "category": "PUBLICIDAD",
+        "name": "AVISO PUBLICITARIO PARA DIARIO O REVISTA",
+        "description": "1 página o doble página. Sin redacción.",
+        "price": "4388"
+    },
+    {
+        "id": 38,
+        "category": "PUBLICIDAD",
+        "name": "KEY VISUAL",
+        "description": "Estética y concepto que la marca desea transmitir en una campaña específica.",
+        "price": "4388"
+    },
+    {
+        "id": 39,
+        "category": "REDES SOCIALES",
+        "name": "AVATAR+PORTADA",
+        "description": "Costo por Cuenta: adaptacion otra red social + 50% c/u",
+        "price": "2106"
+    },
+    {
+        "id": 40,
+        "category": "REDES SOCIALES",
+        "name": "PLACA PARA POSTEO",
+        "description": "Incluye Redacción y Publicación de post",
+        "price": "1492"
+    },
+    {
+        "id": 41,
+        "category": "REDES SOCIALES",
+        "name": "POSTEO ANIMADO GIF",
+        "description": "De 2 a 10 slides. Incluye redacción y publicación del post",
+        "price": "2633"
+    },
+    {
+        "id": 42,
+        "category": "REDES SOCIALES",
+        "name": "CONCUSO DE MURO",
+        "description": "1 pieza original + 2 adaptaciones, redacción de bases y condiciones, sorteo e informe final.",
+        "price": "7020"
+    },
+    {
+        "id": 43,
+        "category": "REDES SOCIALES",
+        "name": "SOCIAL MEDIA PLAN",
+        "description": "Planteo de estrategia de marketing y comunicación en redes sociales.",
+        "price": "11583"
+    },
+    {
+        "id": 44,
+        "category": "REDES SOCIALES",
+        "name": "CREACIÓN DE PERFIL, FAN PAGE, CUENTA, CANAL, ETC.",
+        "description": "Incluye configuración personalizada de acuerdo a las necesidades del cliente.",
+        "price": "6143"
+    },
+    {
+        "id": 45,
+        "category": "REDES SOCIALES",
+        "name": "CREACIÓN DE ÁLBUM",
+        "description": "Subida de al menos 10 imágenes, videos o textos, etc.",
+        "price": "790"
+    },
+    {
+        "id": 46,
+        "category": "REDES SOCIALES",
+        "name": "POSTEO/PUBLICACIÓN DE ENLANCE (NOTICIA O SIMILAR)",
+        "description": "Costo por posteo/Publicación",
+        "price": "614"
+    },
+    {
+        "id": 47,
+        "category": "REDES SOCIALES",
+        "name": "GESTIÓN DE COMUNIDADES",
+        "description": "Costo mensual. Entre 1 y 5 posteos/actualizaciones/tweet/publicaciones semanales.",
+        "price": "6143"
+    },
+    {
+        "id": 48,
+        "category": "REDES SOCIALES",
+        "name": "GESTIÓN DE COMUNIDADES",
+        "description": "Costo mensual. Entre 5 y 10 posteos/actualizaciones/tweet/publicación semanales.",
+        "price": "7898"
+    },
+    {
+        "id": 49,
+        "category": "REDES SOCIALES",
+        "name": "MONITOREO DE REDES",
+        "description": "Costo Mensual por cuenta. contestación/derivación de consultas, resumen estadístico, reporte",
+        "price": "2457"
+    },
+    {
+        "id": 50,
+        "category": "COMUNICACION",
+        "name": "CREATIVIDAD Y REDACCIÓN DE AVISO INSTITUCIONAL",
+        "description": "Conceptualización de la idea a comunicar y redacción aplicada de la misma",
+        "price": "2106"
+    },
+    {
+        "id": 51,
+        "category": "COMUNICACION",
+        "name": "CREATIVIDAD Y REDACCIÓN DE FOLLETO DÍPTICO",
+        "description": "Conceptualización de la idea a comunicar y redacción aplicada de la misma",
+        "price": "2633"
+    },
+    {
+        "id": 52,
+        "category": "COMUNICACION",
+        "name": "CREATIVIDAD Y REDACCIÓN DE FLYER FRENTE/DORSO",
+        "description": "Conceptualización de la idea a comunicar y redacción aplicada de la misma",
+        "price": "2106"
+    },
+    {
+        "id": 53,
+        "category": "COMUNICACION",
+        "name": "REDACCIÓN DE GACETILLA DE PRENSA",
+        "description": "Hasta 500 palabras",
+        "price": "2106"
+    },
+    {
+        "id": 54,
+        "category": "REDES SOCIALES",
+        "name": "NOTA PARA REDES SOCIALES",
+        "description": "Hasta 200 palabras",
+        "price": "1492"
+    },
+    {
+        "id": 55,
+        "category": "REDES SOCIALES",
+        "name": "NOTA PARA REDES SOCIALES",
+        "description": "Hasta 800 palabras",
+        "price": "1931"
+    },
+    {
+        "id": 56,
+        "category": "PROMOCIÓN",
+        "name": "MERCHANDISING",
+        "description": "Hasta 10 piezas (remera, llavero, pin, gorra, calco, lapicera, taza, mousepad, etc).",
+        "price": "7985"
+    },
+    {
+        "id": 57,
+        "category": "PROMOCIÓN",
+        "name": "REMERAS",
+        "description": "Aplicación de logo simple o identidad previamente diseñada",
+        "price": "2211"
+    },
+    {
+        "id": 58,
+        "category": "PROMOCIÓN",
+        "name": "CALCOS",
+        "description": "Aplicación de logo simple o identidad previamente diseñada",
+        "price": "1457"
+    },
+    {
+        "id": 59,
+        "category": "PROMOCIÓN",
+        "name": "LAPICERA, PIN, LLAVERO",
+        "description": "Aplicación de logo simple o identidad previamente diseñada",
+        "price": "1457"
+    },
+    {
+        "id": 60,
+        "category": "PROMOCIÓN",
+        "name": "PAD, FUNDA CELULARES, TAZA",
+        "description": "Aplicación de logo simple o identidad previamente diseñada",
+        "price": "1457"
+    },
+    {
+        "id": 61,
+        "category": "PROMOCIÓN",
+        "name": "BANDERA",
+        "description": "Aplicación de logo simple o identidad previamente diseñada",
+        "price": "1457"
+    },
+    {
+        "id": 62,
+        "category": "PROMOCIÓN",
+        "name": "BOLSAS, ENVOLTORIOS",
+        "description": "Aplicación de logo simple o identidad previamente diseñada",
+        "price": "2211"
+    },
+    {
+        "id": 67,
+        "category": "EDITORIAL",
+        "name": "ARTE DE TAPA",
+        "description": "Tapa, contratapa y lomo (revista, libro, etc.)",
+        "price": "18077"
+    },
+    {
+        "id": 68,
+        "category": "EDITORIAL",
+        "name": "ARMADO DE PÁGINA SIMPLE",
+        "description": "Costo de diseño por página original. Libro, Memoria y Balance, etc.",
+        "price": "1053"
+    },
+    {
+        "id": 69,
+        "category": "EDITORIAL",
+        "name": "ARMADO DE PÁGINA COMPUESTA",
+        "description": "Costo de diseño por página original. Revista, diarios, manuales de estudio, etc.",
+        "price": "1755"
+    },
+    {
+        "id": 70,
+        "category": "EDITORIAL",
+        "name": "LIBRO (CUERPO Y PUESTA EN PÁGINA)",
+        "description": "Hasta 100 páginas.",
+        "price": "79853"
+    },
+    {
+        "id": 71,
+        "category": "EDITORIAL",
+        "name": "REVISTA",
+        "description": "Hasta 30 páginas. No incluye armado de publicidades.",
+        "price": "35802"
+    },
+    {
+        "id": 72,
+        "category": "EDITORIAL",
+        "name": "CATÁLOGO DE products",
+        "description": "Hasta 20 páginas.",
+        "price": "53528"
+    },
+    {
+        "id": 73,
+        "category": "EDITORIAL",
+        "name": "MENÚ PARA RESTAURANTE",
+        "description": "Tapa y hasta 6 paginas.",
+        "price": "14567"
+    },
+    {
+        "id": 74,
+        "category": "EDITORIAL",
+        "name": "MANUAL DE INSTRUCCIONES",
+        "description": "Costo por página. Tipo revista (incluye desarrollo de infografía o signos simples)",
+        "price": "2633"
+    },
+    {
+        "id": 75,
+        "category": "EDITORIAL",
+        "name": "FOLLETO INSTRUCTIVO",
+        "description": "Tipo tríptico A4 con desarrollo de infografía simple o signos.",
+        "price": "15444"
+    },
+    {
+        "id": 76,
+        "category": "SEÑALIZACIÓN",
+        "name": "DISEÑO PLOTEAO VEHICULAR",
+        "description": "Complemento a identidad corporativa/institucional.",
+        "price": "12987"
+    },
+    {
+        "id": 77,
+        "category": "SEÑALIZACIÓN",
+        "name": "DISEÑO PLOTEADO PARA VIDRIERA SIMPLE/EFIMERO",
+        "description": "Por temporada, liquidaciones, promociones, etc.",
+        "price": "8249"
+    },
+    {
+        "id": 78,
+        "category": "SEÑALIZACIÓN",
+        "name": "DISEÑO PLOTEADO PARA VIDRIERA COMPLEJO/PERDURABLE",
+        "description": "Complemento a identidad corporativa/institucional.",
+        "price": "20709"
+    },
+    {
+        "id": 79,
+        "category": "SEÑALIZACIÓN",
+        "name": "CENEFA/ SALTARIN / LLAMADOR",
+        "description": "Diseño morfológico y gráfico para góndola en punto de venta.",
+        "price": "10355"
+    },
+    {
+        "id": 80,
+        "category": "SEÑALIZACIÓN",
+        "name": "DISEÑO DE AFICHE ",
+        "description": "Eventos, promociones, etc.",
+        "price": "10355"
+    },
+    {
+        "id": 81,
+        "category": "SEÑALIZACIÓN",
+        "name": "DISEÑO DE BANNER",
+        "description": "De pie, colgante, tipo pétalo/gota/wind",
+        "price": "10355"
+    },
+    {
+        "id": 82,
+        "category": "SEÑALIZACIÓN",
+        "name": "DISEÑO CARTEL DE FACHADA",
+        "description": "Diseño y asesoramiento en materialización.",
+        "price": "15093"
+    },
+    {
+        "id": 83,
+        "category": "SEÑALIZACIÓN",
+        "name": "DISEÑO CARTEL PARA EXTERIORES",
+        "description": "Tipo rutero.",
+        "price": "16497"
+    },
+    {
+        "id": 84,
+        "category": "SEÑALIZACIÓN",
+        "name": "DISEÑO DE SISTEMA SEÑALÉTICO Y SU SOPORTE",
+        "description": "Hasta 10 piezas (direccionales, locativas, restrictivas, etc.) + manual de aplicación.",
+        "price": "63005"
+    },
+    {
+        "id": 85,
+        "category": "SEÑALIZACIÓN",
+        "name": "APLICACIÓN DE SISTEMA DE SEÑALÉTICO PERMANENTE",
+        "description": "Distribución interior/exterior hasta 25 piezas.",
+        "price": "42120"
+    },
+    {
+        "id": 86,
+        "category": "SEÑALIZACIÓN",
+        "name": "APLICACIÓN DE SISTEMA DE SEÑALÉTICO PERMANENTE",
+        "description": "Distribución interior/exterior hasta 50 piezas.",
+        "price": "42120"
+    },
+    {
+        "id": 87,
+        "category": "SEÑALIZACIÓN",
+        "name": "DISEÑO Y APLICACIÓN SISTEMA DE SEÑALÉTICO EFÍMERO",
+        "description": "Eventos temporales (congreso, exposición, recital, etc). Hasta 10 piezas.",
+        "price": "42120"
+    },
+    {
+        "id": 88,
+        "category": "SEÑALIZACIÓN",
+        "name": "STAND - GRAFICAS SOBRE STAND",
+        "description": "Gráfica aplicada sobre estructura pre-diseñada/panelizado.",
+        "price": "61425"
+    },
+    {
+        "id": 89,
+        "category": "ARQUITECTURA",
+        "name": "STAND - DISEÑO MORFOLÓGICO, ELECCIÓN DE MATERIALES Y PLANOS CONTRUCTIVOS",
+        "description": "Diseño morfológico, elección de mobiliario, etc.",
+        "price": "19832"
+    },
+    {
+        "id": 90,
+        "category": "ARQUITECTURA",
+        "name": "MODELADO 3D DE STAND COMPLEJIDAD BAJA",
+        "description": "Tipo cubiculo (2 o 3 paredes + cenefa) + Renderizado (hasta 5 imágenes/vistas).",
+        "price": "2633"
+    },
+    {
+        "id": 91,
+        "category": "ARQUITECTURA",
+        "name": "MODELADO 3D DE STAND COMPLEJIDAD ALTA",
+        "description": "Incluye renderizado (hasta 10 imágenes/vistas).",
+        "price": "6494"
+    },
+    {
+        "id": 92,
+        "category": "ILLUSTRACION",
+        "name": "DIGITALIZACIÓN",
+        "description": "Escaneado (de ser necesario) y redibujo (logos, tarjetas, etc.). No incluye cambios.",
+        "price": "3335"
+    },
+    {
+        "id": 93,
+        "category": "ILLUSTRACION",
+        "name": "ILUSTRACIÓN A MANO ALZADA",
+        "description": "Para revista / folleto / web.",
+        "price": "15971"
+    },
+    {
+        "id": 94,
+        "category": "ILLUSTRACION",
+        "name": "ILUSTRACIÓN VECTORIAL",
+        "description": "Para revista / folleto / web.",
+        "price": "15971"
+    },
+    {
+        "id": 95,
+        "category": "ILLUSTRACION",
+        "name": "ILUSTRACIÓN 3D",
+        "description": "Para revista / foleto / web.",
+        "price": "31239"
+    },
+    {
+        "id": 96,
+        "category": "ILLUSTRACION",
+        "name": "ANIMACIÓN DE PERSONAJE O ESCENARIO",
+        "description": "Hasta 60 segundos. no incluye creación del personaje/escenario ( ver item anterior)",
+        "price": "63707"
+    },
+    {
+        "id": 97,
+        "category": "ILLUSTRACION",
+        "name": "DESARROLLO DE SISTEMA DE SIGNOS",
+        "description": "Invetigación, análisis, conceptualizacion y desarrollo de sistema original y único",
+        "price": "54054"
+    },
+    {
+        "id": 98,
+        "category": "ILLUSTRACION",
+        "name": "INFOGRAFÍA",
+        "description": "Desarrollo complejo",
+        "price": "67568"
+    },
+    {
+        "id": 99,
+        "category": "PACKAGING",
+        "name": "CD PACK",
+        "description": "Tapas, CD y booklet interior hasta 3 pliegos. No incluye tomas fotográficas.",
+        "price": "36153"
+    },
+    {
+        "id": null,
+        "category": "PACKAGING",
+        "name": "DESARROLLO DE LINEA DE products",
+        "description": "Desarrollar, evaluar y seleccionar los elemtos que van a ser parte de la linea de productos, sean colores, imagenes, tipografías, etc. Elementos que componen la linea de productosrelacionados entre sí por una tipología similar",
+        "price": "31590"
+    },
+    {
+        "id": null,
+        "category": "PACKAGING",
+        "name": "DESARROLLO DE FAMILIA DE products",
+        "description": "Desarrollar, evaluar y seleccionar los elemtos que van a ser parte de la linea de productos, sean colores, imagenes, tipografías, etc. Elementos que componen la linea de productosrelacionados entre sí por una tipología similar",
+        "price": "31590"
+    },
+    {
+        "id": 100,
+        "category": "PACKAGING",
+        "name": "ETIQUETA SIMPLE - PACKAGING",
+        "description": "Diseño de etiqueta aplicada, envoltura simple, impresión sobre envase, bolsa, termocontriable, etc. correcciones, gestion de imprenta y aprobacion de archivos finales.",
+        "price": "17550"
+    },
+    {
+        "id": 101,
+        "category": "PACKAGING",
+        "name": "ETIQUETA COMPUESTA - PACKAGING",
+        "description": "Diseño de etiqueta aplicada, envoltura comleja, varias etiquetas, camas de blanco, camas foam, etc. fotocromia . correcciones, gestion de imprenta y aprobacion de archivos finales.",
+        "price": "52124"
+    },
+    {
+        "id": 102,
+        "category": "PACKAGING",
+        "name": "ENVASE",
+        "description": "desarrollo morfologica de estuche troquelado, envase pet, brick, etc. no incluye grafica (ver item anterior)",
+        "price": "60899"
+    },
+    {
+        "id": 103,
+        "category": "PACKAGING",
+        "name": "MODELADO 3D DE ENVASE",
+        "description": "Costo por envase. Forma simple (caja, frasco, etc).",
+        "price": "10004"
+    },
+    {
+        "id": 104,
+        "category": "PACKAGING",
+        "name": "RENDERIZADO DE MODELO 3D",
+        "description": "imagen de producto. Precio unitario de cada imágen/vista.",
+        "price": "2282"
+    },
+    {
+        "id": 105,
+        "category": "PACKAGING",
+        "name": "ANIMACIÓN DE MODELO 3D",
+        "description": "Costo por envase o composición (grupo) de piezas. Hasta 1000 cuadros.",
+        "price": "23868"
+    },
+    {
+        "id": 106,
+        "category": "WEB",
+        "name": "Modificaciones a sitio HTML/CSS",
+        "description": "Actualización básica de datos, textos y fotos. No incluye cambios de diseño o agregar secciones.",
+        "price": "5090"
+    },
+    {
+        "id": 107,
+        "category": "WEB",
+        "name": "Diseño sitio PÁGINA DE ATERRIZAJE",
+        "description": "La landing page o página de aterrizaje es clave dentro de la planificación estratégica del marketing online. Especialmente diseñada para una rápida y eficaz captación, “sin distracciones”, al grano.",
+        "price": "4212"
+    },
+    {
+        "id": 108,
+        "category": "WEB",
+        "name": "Maquetación sitio PÁGINA DE ATERRIZAJE",
+        "description": "La landing page o página de aterrizaje es clave dentro de la planificación estratégica del marketing online. Especialmente diseñada para una rápida y eficaz captación, “sin distracciones”, al grano.",
+        "price": "4212"
+    },
+    {
+        "id": 109,
+        "category": "WEB",
+        "name": "Diseño sitio “One Page”",
+        "description": "Personalización de colores, tipografía, fotos, iconos, etc.",
+        "price": "11934"
+    },
+    {
+        "id": 110,
+        "category": "WEB",
+        "name": "Maquetación sitio “One Page”",
+        "description": "Hasta 3 mini módulos. Estilo sábana, sección descriptiva, formulario de contacto. Adaptativa.",
+        "price": "18252"
+    },
+    {
+        "id": 111,
+        "category": "WEB",
+        "name": "Diseño sitio “Estándar”",
+        "description": "Personalización de colores, tipografía, fotos, iconos, etc.",
+        "price": "18252"
+    },
+    {
+        "id": 112,
+        "category": "WEB",
+        "name": "Maquetación sitio “Estándar”",
+        "description": "Estilo multipágina o sábana. Hasta 5 secciones, slider animados, mapas de google y conexión a redes sociales.",
+        "price": "26150"
+    },
+    {
+        "id": 113,
+        "category": "WEB",
+        "name": "Diseño sitio “Completo”",
+        "description": "Personalización de colores, tipografía, fotos, iconos, etc.",
+        "price": "26150"
+    },
+    {
+        "id": 114,
+        "category": "WEB",
+        "name": "Maquetación sitio “Completo”",
+        "description": "Estilo multipágina o sábana. Hasta 14 secciones, slider animados, mapas de google y conexión a redes sociales.",
+        "price": "12285"
+    },
+    {
+        "id": 115,
+        "category": "WEB",
+        "name": "Desarrollo en HTML5 CSS3 A MEDIDA",
+        "description": "Costo adicional a cada opción arriba detallada. Maquetado y diseño desde cero.",
+        "price": "12285"
+    },
+    {
+        "id": 116,
+        "category": "WEB",
+        "name": "Opcional: Sección adicional",
+        "description": "Costo de maquetado por cada sección extra al pack original.",
+        "price": "12285"
+    },
+    {
+        "id": 117,
+        "category": "WEB",
+        "name": "Opcional: Sistema autoadministrable / autogestión",
+        "description": "Sistema autoadministrable de noticias o productos",
+        "price": "15093"
+    },
+    {
+        "id": 118,
+        "category": "WEB",
+        "name": "Alta en “Google Mi Negocio”",
+        "description": "Activar la visualización del negocio/empresa en Google Maps.",
+        "price": "15093"
+    },
+    {
+        "id": 119,
+        "category": "WEB",
+        "name": "Opcional: Google Analytics",
+        "description": "Activación de sistema de reportes online de tráfico e integración con Analytics",
+        "price": "15093"
+    },
+    {
+        "id": 120,
+        "category": "WEB",
+        "name": "Opcional: Multi Lenguaje",
+        "description": "Valor adicional por cada idioma. No incluye costo de traducción.",
+        "price": "22815"
+    },
+    {
+        "id": 121,
+        "category": "WEB",
+        "name": "Opcional: Posicionamiento SEO optimizado",
+        "description": "Lectura avanzada de la codificación del sitio.",
+        "price": "2633"
+    },
+    {
+        "id": 122,
+        "category": "WEB",
+        "name": "Opcional: Campaña SEM básica",
+        "description": "Costo mensual. Hasta 500 palabras claves + 1 informe mensual. No incluye inversión en «AdWords» o similar.",
+        "price": "5441"
+    },
+    {
+        "id": 123,
+        "category": "WEB",
+        "name": "Armado Tienda online (TiendaNube, Wix o similar)",
+        "description": "Darle formato a las plantillas (colores, textos, fotos, etc) y carga de hasta 25 productos. No incluye costo de la plataforma.",
+        "price": "3686"
+    },
+    {
+        "id": 124,
+        "category": "WEB",
+        "name": "Diseño APP UX (experiencia de usuario)",
+        "description": "Navegación/usabilidad. Hasta 5 pantallas (vertical/horizontal de c/u) para 1 OS.",
+        "price": "3861"
+    },
+    {
+        "id": 125,
+        "category": "WEB",
+        "name": "Diseño APP UI (interfase de usuario)",
+        "description": "Selección y distribución de los elementos. Hasta 5 pantallas (vertical/horizontal de c/u) para 1 OS.",
+        "price": "17199"
+    },
+    {
+        "id": 126,
+        "category": "WEB",
+        "name": "Maquetación APP (programación Híbrida)",
+        "description": "Hasta 5 secciones (vertical/horizontal de c/u) para 1 OS.",
+        "price": "43875"
+    },
+    {
+        "id": 127,
+        "category": "WEB",
+        "name": "Maquetación APP (programación Nativa)",
+        "description": "Hasta 5 pantallas (vertical/horizontal de c/u) para 1 OS.",
+        "price": "43875"
+    },
+    {
+        "id": 128,
+        "category": "WEB",
+        "name": "Banner publicitario animado",
+        "description": "Animación .gif, Javascript o versión reducida Jquery. Hasta 15 segundos.",
+        "price": "43875"
+    },
+    {
+        "id": null,
+        "category": "WEB",
+        "name": "Mailing publicitario / Newsletter",
+        "description": "Diseño y desarrollo. Con vínculos activos.",
+        "price": "0"
+    },
+    {
+        "id": 129,
+        "category": "AUDIOVISUAL",
+        "name": "PRESENTACIONES DINÁMICAS",
+        "description": "PowerPoint, Prezi, etc. Hasta 15 diapositivas/pantallas.",
+        "price": "7898"
+    },
+    {
+        "id": 130,
+        "category": "AUDIOVISUAL",
+        "name": "PLACA ANIMADA 2D",
+        "description": "Texto, fondo y animación. Hasta 30 segundos (costo por segundo desde $100).",
+        "price": "11232"
+    },
+    {
+        "id": 131,
+        "category": "AUDIOVISUAL",
+        "name": "SPOT PUBLICITARIO REDES / ANIMACIÓN COMPLEJIDAD BAJA",
+        "description": "Edición de tomas y placas estáticas. Hasta 30 segundos (costo por segundo desde $300).",
+        "price": "32819"
+    },
+    {
+        "id": 132,
+        "category": "AUDIOVISUAL",
+        "name": "SPOT PUBLICITARIO / ANIMACIÓN COMPLEJIDAD MEDIA",
+        "description": "Edición de tomas y placas animadas. Hasta 30 segundos (costo por segundo desde $500).",
+        "price": "52124"
+    },
+    {
+        "id": 133,
+        "category": "AUDIOVISUAL",
+        "name": "SPOT PUBLICITARIO / ANIMACIÓN COMPLEJIDAD ALTA",
+        "description": "Edición de tomas y placas animadas/3D. Hasta 30 segundos (costo del segundo desde $850).",
+        "price": "69498"
+    },
+    {
+        "id": 134,
+        "category": "AUDIOVISUAL",
+        "name": "TÍTUOS APERTURA (TV, YOUTUBE, VIMEO, ETC.)",
+        "description": "Texto, fondo y animación. Hasta 30 segundos (costo por segundo desde $100).",
+        "price": "11232"
+    },
+    {
+        "id": 135,
+        "category": "AUDIOVISUAL",
+        "name": "ZÓCALO (TV, YOUTUBE, VIMEO, ETC.)",
+        "description": "Texto, fondo y animación. Hasta 15 segundos.",
+        "price": "7196"
+    },
+    {
+        "id": 136,
+        "category": "SONIDO",
+        "name": "SPOT RADIAL",
+        "description": "Edición/mezcla, hasta 25 segundos. No incluye grabación de audio/locución.",
+        "price": "5792"
+    },
+    {
+        "id": 137,
+        "category": "SONIDO",
+        "name": "COMPOSICIÓN Y GRABACIÓN DE MÚSICA ORIGINAL",
+        "description": "Hasta 1 minuto. No incluye voz/locución.",
+        "price": "22640"
+    },
+    {
+        "id": 138,
+        "category": "SONIDO",
+        "name": "LOCUCIÓN",
+        "description": "Para spot de hasta 30 segundos. No incluye edición.",
+        "price": "4914"
+    },
+    {
+        "id": 139,
+        "category": "FOTOGRAFÍA",
+        "name": "EN ESTUDIO: ARMADO DE SET",
+        "description": "Sesión hasta 2 horas. Sumar al item siguiente.",
+        "price": "7722"
+    },
+    {
+        "id": 140,
+        "category": "FOTOGRAFÍA",
+        "name": "EN ESTUDIO: SESIÓN FOTOGRÁFICA",
+        "description": "Mínimo 15 fotografías (costo por foto desde $150). Sumar al ítem anterior.",
+        "price": "11934"
+    },
+    {
+        "id": 141,
+        "category": "FOTOGRAFÍA",
+        "name": "EN LOCACIÓN: SESIÓN FOTOGRÁFICA",
+        "description": "Hasta 2 horas, 1 cámara.",
+        "price": "24570"
+    },
+    {
+        "id": 142,
+        "category": "FOTOGRAFÍA",
+        "name": "ESCANEO DIGITAL",
+        "description": "Costo por unidad. No incluye retoques o restauración.",
+        "price": "527"
+    },
+    {
+        "id": 143,
+        "category": "FOTOGRAFÍA",
+        "name": "FILMACIÓN",
+        "description": "Incluye 1 cámara FullHD + un micrófono (estándar) + 1 luz.",
+        "price": "15093"
+    },
+    {
+        "id": 144,
+        "category": "FOTOGRAFÍA",
+        "name": "SUPERVISIÓN DE TOMAS FOTOGRÁFICAS POR HORA",
+        "description": "Asesoramiento en composición de escenas, luz, etc.",
+        "price": "1580"
+    },
+    {
+        "id": 145,
+        "category": "FOTOGRAFÍA",
+        "name": "RETOQUE DIGITAL (SE RECOMIENDA VER ITEM N°1)",
+        "description": "Costo por cada imagen. Fotomontajes, retoque de personas, restauración, etc.",
+        "price": "4388"
+    },
+    {
+        "id": 146,
+        "category": "FOTOGRAFÍA",
+        "name": "FOTO DE PRODUCTO",
+        "description": "Costo por unidad.",
+        "price": "439"
+    },
+    {
+        "id": 148,
+        "category": "FOTOGRAFÍA",
+        "name": "FOTOGRAFIA DIGITAL, RENDERS DE products TAMAÑO GRANDE",
+        "description": "Composición de escenas, luz, etc. costo por img",
+        "price": "2633"
+    },
+    {
+        "id": 151,
+        "category": "Diseño 3D",
+        "name": "MODELADO DE LOGO (PREVIAMENTE DISEÑADO)",
+        "description": "",
+        "price": "790"
+    },
+    {
+        "id": 152,
+        "category": "Diseño 3D",
+        "name": "MODELADO DE PERSONAJE",
+        "description": "",
+        "price": "0"
+    },
+    {
+        "id": 153,
+        "category": "Diseño 3D",
+        "name": "MODELADO ESCENARIO",
+        "description": "",
+        "price": "1316"
+    },
+    {
+        "id": 154,
+        "category": "Diseño 3D",
+        "name": "MODELADO PLANO / PREVIAMENTE DISEÑADO",
+        "description": "",
+        "price": "0"
+    },
+    {
+        "id": 155,
+        "category": "Diseño 3D",
+        "name": "ANIMACIÓN DE PERSONAJE O ESCENARIO",
+        "description": "",
+        "price": "0"
+    },
+    {
+        "id": 156,
+        "category": "Diseño 3D",
+        "name": "RENDERIZADO DE MODELO 3D (PRECIO UNITARIO DE CADA IMÁGEN/VISTA)",
+        "description": "",
+        "price": "0"
+    },
+    {
+        "id": 157,
+        "category": "Diseño 3D",
+        "name": "MODELADO 3D DE STAND COMPLEJIDAD BAJA TIPO CUBÍCULO",
+        "description": "(2 o 3 paredes + cenefa) + Renderizado (hasta 5 imág./vistas).",
+        "price": "965"
+    },
+    {
+        "id": 158,
+        "category": "Diseño 3D",
+        "name": "MODELADO 3D DE STAND COMPLEJIDAD ALTA INCLUYE RENDERIZADO (HASTA 10 IMÁGENES/VISTAS).",
+        "description": "",
+        "price": "1316"
+    },
+    {
+        "id": 159,
+        "category": "Diseño 3D",
+        "name": "DISEÑO DE GIGANTOGRAFÍA / CARTEL PARA EXTERIORES",
+        "description": "",
+        "price": "2984"
+    },
+    {
+        "id": 160,
+        "category": "Locales",
+        "name": "DISEÑO DE CARTEL DE FACHADA",
+        "description": "",
+        "price": "3510"
+    },
+    {
+        "id": 161,
+        "category": "Locales",
+        "name": "DISEÑO DE PLOTEADO PARA VIDRIERA",
+        "description": "",
+        "price": "2633"
+    },
+    {
+        "id": 162,
+        "category": "Impresion",
+        "name": "LONA IMP. BRILLO 720DPI",
+        "description": "Lonas tipo banners",
+        "price": "1415"
+    },
+    {
+        "id": 163,
+        "category": "Impresion",
+        "name": "VINILO IMPR. BRILLO 720DPI",
+        "description": "Solv. Premium brillo",
+        "price": "2224"
+    },
+    {
+        "id": 164,
+        "category": "Impresion",
+        "name": "VINILO IMPR. BRILLO PREMIUM 1440DPI",
+        "description": "Solv. Premium brillo",
+        "price": "1862"
+    },
+    {
+        "id": 165,
+        "category": "Impresion",
+        "name": "VINILO IMPR. MATE 720DPI",
+        "description": "Solv. Premium Mate",
+        "price": "2224"
+    },
+    {
+        "id": 166,
+        "category": "Impresion",
+        "name": "VINILO IMPR. MATE PREMIUM 1440DPI",
+        "description": "Solv. Premium Mate",
+        "price": "1862"
+    },
+    {
+        "id": 167,
+        "category": "Impresion",
+        "name": "VINILO IMPR. MICROPERFORADO 720DPI",
+        "description": "Solv. Microperf",
+        "price": "1529"
+    },
+    {
+        "id": 168,
+        "category": "Impresion",
+        "name": "VINILO IMPR. BLACKOUT 720DPI",
+        "description": "Solv. Blackout",
+        "price": "2220"
+    },
+    {
+        "id": 169,
+        "category": "Impresion",
+        "name": "VINILO IMPR. CRISTAL 1440DPI",
+        "description": "Solv. Cristal",
+        "price": "1415"
+    },
+    {
+        "id": 170,
+        "category": "Impresion",
+        "name": "SOLV CANVAS 1440DPI M2 GR",
+        "description": "Solv. Canvas",
+        "price": "2527"
+    },
+    {
+        "id": 171,
+        "category": "Impresion",
+        "name": "SOLV ECO-CUERO 720DPI M2 GR",
+        "description": "Solv. Eco-cuero",
+        "price": "1895"
+    },
+    {
+        "id": 172,
+        "category": "Impresion",
+        "name": "SOLV ESMERILADO 720DPI M2 GR",
+        "description": "Solv. Esmerilado",
+        "price": "2738"
+    },
+    {
+        "id": 173,
+        "category": "Impresion",
+        "name": "DYE ENCAPADO 140GR 90CM 100%",
+        "description": "DYE ENCAPADO 140GR 105CM 100%",
+        "price": "2106"
+    },
+    {
+        "id": null,
+        "category": "Impresion",
+        "name": "DYE ENCAPADO 140GR 105CM 100%",
+        "description": "DYE ENCAPADO 140GR 90CM 100%",
+        "price": "2586"
+    },
+    {
+        "id": 174,
+        "category": "Impresion",
+        "name": "MAT ECONOMICO 60ML",
+        "description": "MAT ECONOMICO 60ML",
+        "price": "1137"
+    },
+    {
+        "id": 175,
+        "category": "Impresion",
+        "name": "CORTE VECTORES VINILO GRANDE ML 58CM",
+        "description": "Corte de piezas de tamaño grande de baja complejidad",
+        "price": "295"
+    },
+    {
+        "id": 176,
+        "category": "Impresion",
+        "name": "CORTE VECTORES VINILO CHICOS ML 58CM",
+        "description": "Corte de piezas de tamaño Chico de mayor complejidad",
+        "price": "421"
+    },
+    {
+        "id": 177,
+        "category": "Impresion",
+        "name": "MAT TRANFER 60CM",
+        "description": "Adhesivo transferible de vinilos",
+        "price": "421"
+    },
+    {
+        "id": 178,
+        "category": "Impresion",
+        "name": "DESPUNTILLADO",
+        "description": "despuntillado de vinilos x Ml",
+        "price": "632"
+    },
+    {
+        "id": 179,
+        "category": "Impresion",
+        "name": "ENCAPSULADO 90CM",
+        "description": "Laminado ambas caras, frente y dorso",
+        "price": "463"
+    },
+    {
+        "id": 183,
+        "category": "Impresion",
+        "name": "LAMINADO CALIENTE 90CM ML",
+        "description": "",
+        "price": "337"
+    },
+    {
+        "id": 184,
+        "category": "Impresion",
+        "name": "LAMINADO FRIO BRILLO ",
+        "description": "por metro Lineal",
+        "price": "885"
+    },
+    {
+        "id": 185,
+        "category": "Impresion",
+        "name": "LAMINADO FRIO MATE",
+        "description": "por metro Lineal",
+        "price": "1188"
+    },
+    {
+        "id": 186,
+        "category": "Impresion",
+        "name": "OJALILLOS",
+        "description": "ojales de sujecion ",
+        "price": "63"
+    },
+    {
+        "id": 187,
+        "category": "Impresion",
+        "name": "PLEGADO LONA METRO LINEAL",
+        "description": "Plegado de Lona para hacer bolsillos",
+        "price": "168"
+    },
+    {
+        "id": 188,
+        "category": "Locales",
+        "name": "PORTABANNER 90*190 DE 2 VELAS",
+        "description": "Mod1",
+        "price": "2563"
+    },
+    {
+        "id": 189,
+        "category": "Mat. Vinilo",
+        "name": "VINILO COLOR BRILLO",
+        "description": "x 60 cm ancho",
+        "price": "392"
+    },
+    {
+        "id": 190,
+        "category": "Mat. Vinilo",
+        "name": "VINILO COLOR MATE",
+        "description": "x 60 cm ancho",
+        "price": "392"
+    },
+    {
+        "id": 191,
+        "category": "Mat. Vinilo",
+        "name": "VINILO COLOR BRILLO 120CM",
+        "description": "x 60 cm ancho",
+        "price": "783"
+    },
+    {
+        "id": 192,
+        "category": "Mat. Vinilo",
+        "name": "VINILO COLOR MATE 120CM",
+        "description": "x 60 cm ancho",
+        "price": "783"
+    },
+    {
+        "id": 193,
+        "category": "Mat. Vinilo",
+        "name": "VINILO CARBONO B/N 120CM",
+        "description": "120cm ancho x metro lineal",
+        "price": "1171"
+    },
+    {
+        "id": 194,
+        "category": "Mat. Vinilo",
+        "name": "VINILO CARBONO B/N 150CM",
+        "description": "150cm ancho x metro lineal",
+        "price": "1509"
+    },
+    {
+        "id": 195,
+        "category": "Mat. Vinilo",
+        "name": "VINILO ESMERILADO 120CM",
+        "description": "120cm ancho x metro lineal",
+        "price": "869"
+    },
+    {
+        "id": 196,
+        "category": "Mat. Vinilo",
+        "name": "VINILO CRISTAL",
+        "description": "60cm ancho x metro lineal",
+        "price": "369"
+    },
+    {
+        "id": 197,
+        "category": "Mat. Vinilo",
+        "name": "VINILO CRISTAL COLOR",
+        "description": "60cm ancho x metro lineal",
+        "price": "883"
+    },
+    {
+        "id": 198,
+        "category": "Mat. Vinilo",
+        "name": "VINILO ESPECIAL (ORO CEPILLADO, PLATA, ETC)",
+        "description": "60cm ancho x metro lineal",
+        "price": "606"
+    },
+    {
+        "id": 199,
+        "category": "Mat. Vinilo",
+        "name": "VINILO MICROPERF BLANCO",
+        "description": "135cm ancho x metro lineal",
+        "price": "675"
+    },
+    {
+        "id": 200,
+        "category": "Mat. Vinilo",
+        "name": "VINILO ESMERILADO-",
+        "description": "60cm ancho x metro lineal",
+        "price": "409"
+    },
+    {
+        "id": 210,
+        "category": "Varios",
+        "name": "PVC ESPUMADO 1MM",
+        "description": "(1,22m x 2,44m)",
+        "price": "1544"
+    },
+    {
+        "id": 211,
+        "category": "Varios",
+        "name": "PVC ESPUMADO 1,5MM",
+        "description": "(1,22m x 2,44m)",
+        "price": "2132"
+    },
+    {
+        "id": 212,
+        "category": "Varios",
+        "name": "PVC ESPUMADO 2MM",
+        "description": "(1,22m x 2,44m)",
+        "price": "2448"
+    },
+    {
+        "id": 213,
+        "category": "Varios",
+        "name": "PVC ESPUMADO 3MM",
+        "description": "(1,22m x 2,44m)",
+        "price": "3254"
+    },
+    {
+        "id": 214,
+        "category": "Varios",
+        "name": "PTG - 1MM - TRASLUCIDO",
+        "description": "(1,22m x 2,44m)",
+        "price": "3816"
+    },
+    {
+        "id": 215,
+        "category": "Varios",
+        "name": "PTG - 1.5MM -TRASLUCIDO",
+        "description": "(1,22m x 2,44m)",
+        "price": "5693"
+    },
+    {
+        "id": 216,
+        "category": "Varios",
+        "name": "PTG - 2MM - TRASLUCIDO",
+        "description": "(1,22m x 2,44m)",
+        "price": "7632"
+    },
+    {
+        "id": 217,
+        "category": "Varios",
+        "name": "ALTO IMPACTO - 1MM - BLANCO",
+        "description": "(1,00m x 2,00m)",
+        "price": "1842"
+    },
+    {
+        "id": 218,
+        "category": "Varios",
+        "name": "ALTO IMPACTO - 1,5MM - BLANCO",
+        "description": "(1,00m x 2,00m)",
+        "price": "2760"
+    },
+    {
+        "id": 219,
+        "category": "Varios",
+        "name": "ALTO IMPACTO - 2MM - BLANCO",
+        "description": "(1,00m x 2,00m)",
+        "price": "3666"
+    },
+    {
+        "id": 220,
+        "category": "Varios",
+        "name": "ALTO IMPACTO - 3MM - BLANCO",
+        "description": "(1,00m x 2,00m)",
+        "price": "5432"
+    },
+    {
+        "id": 221,
+        "category": "Varios",
+        "name": "PLASTICO CORRUGADO - 2MM",
+        "description": "(1,00m x 2,00m)",
+        "price": "1011"
+    },
+    {
+        "id": 222,
+        "category": "Varios",
+        "name": "ACRILICO CRISTAL 6MM",
+        "description": "",
+        "price": "14857"
+    },
+    {
+        "id": 223,
+        "category": "Varios",
+        "name": "ACRILICO CRISTAL 4MM",
+        "description": "",
+        "price": "10058"
+    },
+    {
+        "id": 224,
+        "category": "Varios",
+        "name": "ACRILICO CRISTAL 3MM",
+        "description": "",
+        "price": "7503"
+    },
+    {
+        "id": 225,
+        "category": "Varios",
+        "name": "ACRILICO CRISTAL 2MM",
+        "description": "",
+        "price": "3737"
+    },
+    {
+        "id": null,
+        "category": "Maderas",
+        "name": "MDF FIBROFACIL 3MM",
+        "description": "(1,83 x 2,60)",
+        "price": "0"
+    },
+    {
+        "id": 226,
+        "category": "Maderas",
+        "name": "MDF FIBROFACIL 5MM",
+        "description": "(1,83 x 2,60)",
+        "price": "1584"
+    },
+    {
+        "id": 227,
+        "category": "Maderas",
+        "name": "MDF FIBROFACIL 9MM",
+        "description": "(1,83 x 2,60) 9",
+        "price": "2246"
+    },
+    {
+        "id": 228,
+        "category": "Maderas",
+        "name": "MDF FIBROFACIL 12MM",
+        "description": "(1,83 x 2,60)12 mm",
+        "price": "2957"
+    },
+    {
+        "id": 229,
+        "category": "Maderas",
+        "name": "MDF FIBROFACIL 15MM",
+        "description": "(1,83 x 2,60) 15 mm",
+        "price": "3650"
+    },
+    {
+        "id": 230,
+        "category": "Maderas",
+        "name": "MDF FIBROFACIL 18MM",
+        "description": "(1,83 x 2,60) 18 mm",
+        "price": "4380"
+    },
+    {
+        "id": 231,
+        "category": "Maderas",
+        "name": "FENÓLICO 9MM",
+        "description": "(1.22 x 2.44) 9 mm",
+        "price": "2050"
+    },
+    {
+        "id": 232,
+        "category": "Maderas",
+        "name": "FENÓLICO 12MM GRANDIS",
+        "description": "(1.22 x 2.44) 12mm",
+        "price": "2920"
+    },
+    {
+        "id": 233,
+        "category": "Maderas",
+        "name": "FENÓLICO 15MM GRANDIS",
+        "description": "(1.22 x 2.44) 15 mm",
+        "price": "3243"
+    },
+    {
+        "id": 234,
+        "category": "Maderas",
+        "name": "FENÓLICO 18 ECONOMICO",
+        "description": "(1.22 x 2.44) 18 mm",
+        "price": "2752"
+    },
+    {
+        "id": 235,
+        "category": "Maderas",
+        "name": "MELAMINA BLANCA 18MM - FAPLAC",
+        "description": "(1.83 x 2.60)",
+        "price": "5251"
+    },
+    {
+        "id": 236,
+        "category": "Maderas",
+        "name": "MELAMINA COLOR 18MM",
+        "description": "(1.83 x 2.60)",
+        "price": "6543"
+    },
+    {
+        "id": 237,
+        "category": "Maderas",
+        "name": "MELAMINA TOUCH 18MM",
+        "description": "(1.83 x 2.60)",
+        "price": "7301"
+    },
+    {
+        "id": 238,
+        "category": "Maderas",
+        "name": "MADERA CORTES",
+        "description": "Por pasada",
+        "price": "70"
+    },
+    {
+        "id": 239,
+        "category": "Maderas",
+        "name": "CANTO 2,5CM",
+        "description": "Precio por metro",
+        "price": "37"
+    },
+    {
+        "id": 240,
+        "category": "Maderas",
+        "name": "CANTO 5CM",
+        "description": "Precio por metro",
+        "price": "73"
+    },
+    {
+        "id": 241,
+        "category": "Maderas",
+        "name": "FIBRO PLUS COLOR - 3MM",
+        "description": "(1,83 x 2,60)",
+        "price": "2106"
+    },
+    {
+        "id": 242,
+        "category": "Locales",
+        "name": "MENSULA PARA RIEL 17CM ",
+        "description": "Color Blanco o Negro",
+        "price": "35"
+    },
+    {
+        "id": 243,
+        "category": "Locales",
+        "name": "MENSULA PARA RIEL 27CM",
+        "description": "Color Blanco o Negro",
+        "price": "43"
+    },
+    {
+        "id": 244,
+        "category": "Locales",
+        "name": "MENSULA PARA RIEL 37CM",
+        "description": "Color Blanco o Negro",
+        "price": "53"
+    },
+    {
+        "id": 245,
+        "category": "Locales",
+        "name": "RIEL PARA MENSULA 1M.",
+        "description": "Color Blanco o Negro",
+        "price": "106"
+    },
+    {
+        "id": 246,
+        "category": "Locales",
+        "name": "RIEL PARA MENSULA 1,5M. ",
+        "description": "Color Blanco o Negro",
+        "price": "158"
+    },
+    {
+        "id": 247,
+        "category": "Locales",
+        "name": "RIEL PARA MENSULA 2M.",
+        "description": "Color Blanco o Negro",
+        "price": "211"
+    },
+    {
+        "id": 248,
+        "category": "Varios",
+        "name": "TELA FRONT LIGTH BRILLO",
+        "description": "",
+        "price": "570"
+    },
+    {
+        "id": 249,
+        "category": "Varios",
+        "name": "TELA FRONT LIGTH MATE",
+        "description": "",
+        "price": "627"
+    },
+    {
+        "id": 250,
+        "category": "Varios",
+        "name": "TELA BACK LIGTH",
+        "description": "",
+        "price": "913"
+    },
+    {
+        "id": 251,
+        "category": "Varios",
+        "name": "TELA BLAK OUT",
+        "description": "",
+        "price": "913"
+    },
+    {
+        "id": 252,
+        "category": "Varios",
+        "name": "TELA MESH",
+        "description": "",
+        "price": "913"
+    },
+    {
+        "id": 253,
+        "category": "Varios",
+        "name": "VINILO PROMOCIONAL",
+        "description": "60cm ancho x metro lineal",
+        "price": "570"
+    },
+    {
+        "id": 254,
+        "category": "Varios",
+        "name": "VINILO CALIDAD",
+        "description": "60cm ancho x metro lineal",
+        "price": "627"
+    },
+    {
+        "id": 256,
+        "category": "Varios",
+        "name": "REFUERZOS - VAINAS - DOBLADILLOS - UNIONES",
+        "description": "",
+        "price": "228"
+    },
+    {
+        "id": 257,
+        "category": "Varios",
+        "name": "VAINA PARA BANNER",
+        "description": "HASTA 1.2MTS",
+        "price": "411"
+    },
+    {
+        "id": 258,
+        "category": "Varios",
+        "name": "OJALES COLOCADOS",
+        "description": "",
+        "price": "23"
+    },
+    {
+        "id": 259,
+        "category": "Varios",
+        "name": "MONTADO SOBRE RIGIDOS",
+        "description": "DESDE - EL M2",
+        "price": "274"
+    },
+    {
+        "id": 260,
+        "category": "Varios",
+        "name": "REFILADO",
+        "description": "",
+        "price": "114"
+    },
+    {
+        "id": 261,
+        "category": "Varios",
+        "name": "CORTE DE VINILO",
+        "description": "",
+        "price": "274"
+    },
+    {
+        "id": 262,
+        "category": "Varios",
+        "name": "CORTE DE VINILO IMPRESO - SILUETAS",
+        "description": "",
+        "price": "274"
+    },
+    {
+        "id": 263,
+        "category": "Varios",
+        "name": "BANDERAS SUBLIMADAS",
+        "description": "Cada una de 1000x1500",
+        "price": "1209"
+    },
+    {
+        "id": 264,
+        "category": "Varios",
+        "name": "BANDERAS SUBLIMADAS CANT < 10",
+        "description": "menos de 10 -1000x1500",
+        "price": "1004"
+    },
+    {
+        "id": 265,
+        "category": "Varios",
+        "name": "BANDERAS SUBLIMADAS CANT 10-20",
+        "description": "entre 10 y 20 - 1000x1500",
+        "price": "913"
+    },
+    {
+        "id": null,
+        "category": "Maderas-",
+        "name": "MDF 3MM",
+        "description": "precio x m2",
+        "price": "420"
+    },
+    {
+        "id": 276,
+        "category": "Maderas-",
+        "name": "MDF 5MM",
+        "description": "precio x m2",
+        "price": "#REF!"
+    },
+    {
+        "id": 277,
+        "category": "Maderas-",
+        "name": "MDF 9MM",
+        "description": "precio x m2",
+        "price": "#REF!"
+    },
+    {
+        "id": 278,
+        "category": "Maderas-",
+        "name": "MDF 12MM",
+        "description": "precio x m2",
+        "price": "#REF!"
+    },
+    {
+        "id": 279,
+        "category": "Maderas-",
+        "name": "MDF 15MM",
+        "description": "precio x m2",
+        "price": "#REF!"
+    },
+    {
+        "id": 280,
+        "category": "Maderas-",
+        "name": "PINO 18MM",
+        "description": "precio x m2",
+        "price": "#REF!"
+    },
+    {
+        "id": 281,
+        "category": "Maderas-",
+        "name": "FENÓLICO 18MM",
+        "description": "precio x m2",
+        "price": "#REF!"
+    },
+    {
+        "id": 282,
+        "category": "Bastidor",
+        "name": "BASTIDOR 15X15",
+        "description": "FibreFacil 5",
+        "price": "#REF!"
+    },
+    {
+        "id": 283,
+        "category": "Bastidor",
+        "name": "BASTIDOR 15X30",
+        "description": "FibreFacil 5",
+        "price": "#REF!"
+    },
+    {
+        "id": 284,
+        "category": "Bastidor",
+        "name": "BASTIDOR 20X20",
+        "description": "FibreFacil 5",
+        "price": "#REF!"
+    },
+    {
+        "id": 285,
+        "category": "Bastidor",
+        "name": "BASTIDOR 20X25",
+        "description": "FibreFacil 5",
+        "price": "#REF!"
+    },
+    {
+        "id": 286,
+        "category": "Bastidor",
+        "name": "BASTIDOR 20X30",
+        "description": "FibreFacil 5",
+        "price": "#REF!"
+    },
+    {
+        "id": 287,
+        "category": "Bastidor",
+        "name": "BASTIDOR 20X40",
+        "description": "FibreFacil 5",
+        "price": "#REF!"
+    },
+    {
+        "id": 288,
+        "category": "Bastidor",
+        "name": "BASTIDOR 20X50",
+        "description": "FibreFacil 5",
+        "price": "#REF!"
+    },
+    {
+        "id": 289,
+        "category": "Bastidor",
+        "name": "BASTIDOR 20X60",
+        "description": "FibreFacil 5",
+        "price": "#REF!"
+    },
+    {
+        "id": 290,
+        "category": "Bastidor",
+        "name": "BASTIDOR 20X70",
+        "description": "FibreFacil 5",
+        "price": "#REF!"
+    },
+    {
+        "id": 291,
+        "category": "Bastidor",
+        "name": "BASTIDOR 25X25",
+        "description": "FibreFacil 5",
+        "price": "#REF!"
+    },
+    {
+        "id": 292,
+        "category": "Bastidor",
+        "name": "BASTIDOR 25X30",
+        "description": "FibreFacil 5",
+        "price": "#REF!"
+    },
+    {
+        "id": 293,
+        "category": "Bastidor",
+        "name": "BASTIDOR 30X30",
+        "description": "FibreFacil 5",
+        "price": "#REF!"
+    },
+    {
+        "id": 294,
+        "category": "Bastidor",
+        "name": "BASTIDOR 30X40",
+        "description": "FibreFacil 5",
+        "price": "#REF!"
+    },
+    {
+        "id": 295,
+        "category": "Bastidor",
+        "name": "BASTIDOR 30X50",
+        "description": "FibreFacil 5",
+        "price": "#REF!"
+    },
+    {
+        "id": 296,
+        "category": "Bastidor",
+        "name": "BASTIDOR 30X60",
+        "description": "FibreFacil 5",
+        "price": "#REF!"
+    },
+    {
+        "id": 297,
+        "category": "Bastidor",
+        "name": "BASTIDOR 30X70",
+        "description": "FibreFacil 5",
+        "price": "#REF!"
+    },
+    {
+        "id": 298,
+        "category": "Bastidor",
+        "name": "BASTIDOR 30X80",
+        "description": "FibreFacil 5",
+        "price": "#REF!"
+    },
+    {
+        "id": 299,
+        "category": "Bastidor",
+        "name": "BASTIDOR 30X90",
+        "description": "FibreFacil 5",
+        "price": "#REF!"
+    },
+    {
+        "id": 300,
+        "category": "Bastidor",
+        "name": "BASTIDOR 15X15",
+        "description": "FibreFacil 3",
+        "price": "#REF!"
+    },
+    {
+        "id": 301,
+        "category": "Bastidor",
+        "name": "BASTIDOR 20X20",
+        "description": "FibreFacil 3",
+        "price": "#REF!"
+    },
+    {
+        "id": 302,
+        "category": "Bastidor",
+        "name": "BASTIDOR 25X25",
+        "description": "FibreFacil 3",
+        "price": "#REF!"
+    },
+    {
+        "id": 303,
+        "category": "Bastidor",
+        "name": "BASTIDOR 30X30",
+        "description": "FibreFacil 3",
+        "price": "#REF!"
+    },
+    {
+        "id": 304,
+        "category": "Bastidor",
+        "name": "BASTIDOR 40X40",
+        "description": "FibreFacil 5",
+        "price": "#REF!"
+    },
+    {
+        "id": 305,
+        "category": "Bastidor",
+        "name": "BASTIDOR 40X50",
+        "description": "FibreFacil 5",
+        "price": "#REF!"
+    },
+    {
+        "id": 306,
+        "category": "Bastidor",
+        "name": "BASTIDOR 50X50",
+        "description": "FibreFacil 5",
+        "price": "#REF!"
+    },
+    {
+        "id": 307,
+        "category": "Bastidor",
+        "name": "BASTIDOR 50X60",
+        "description": "FibreFacil 5",
+        "price": "#REF!"
+    },
+    {
+        "id": 308,
+        "category": "Bastidor",
+        "name": "BASTIDOR 50X70",
+        "description": "FibreFacil 5",
+        "price": "#REF!"
+    },
+    {
+        "id": 309,
+        "category": "Bastidor",
+        "name": "BASTIDOR 50X80",
+        "description": "FibreFacil 5",
+        "price": "#REF!"
+    },
+    {
+        "id": 310,
+        "category": "Bastidor",
+        "name": "BASTIDOR 60X80",
+        "description": "FibreFacil 5",
+        "price": "#REF!"
+    },
+    {
+        "id": 311,
+        "category": "Bastidor",
+        "name": "BASTIDOR 60X90",
+        "description": "FibreFacil 5",
+        "price": "#REF!"
+    },
+    {
+        "id": 312,
+        "category": "Bastidor",
+        "name": "BASTIDOR 80X100",
+        "description": "FibreFacil 5",
+        "price": "#REF!"
+    },
+    {
+        "id": 313,
+        "category": "Bastidor",
+        "name": "BASTIDOR 40X70",
+        "description": "FibreFacil 5",
+        "price": "#REF!"
+    },
+    {
+        "id": 314,
+        "category": "Bastidor",
+        "name": "BASTIDOR 25X30",
+        "description": "FibreFacil 3",
+        "price": "#REF!"
+    },
+    {
+        "id": 315,
+        "category": "Locales",
+        "name": "GRAFICA PUBLICITARIA PARA LOCAL TAMAÑO A3",
+        "description": "Tamaño Hoja A3",
+        "price": "351"
+    },
+    {
+        "id": 316,
+        "category": "Locales",
+        "name": "GRAFICA PARA VIDRIERA IMPRESA",
+        "description": "por m2 de formato cuadrado sin trazado",
+        "price": "0"
+    },
+    {
+        "id": 317,
+        "category": "Locales",
+        "name": "GRAFICA PARA VIDRIERA IMPRESA + TRAZADO",
+        "description": "recorte de figura con una determinada geometria",
+        "price": "332"
+    },
+    {
+        "id": 318,
+        "category": "Locales",
+        "name": "ARMADO Y COLOCACION SIMPLE",
+        "description": "sticker o calco en la puerta de acceso",
+        "price": "234"
+    },
+    {
+        "id": 319,
+        "category": "Locales",
+        "name": "ARMADO Y COLOCACION",
+        "description": "colocaciones en vidrieras o paños a la altura del piso, tamaños chicos",
+        "price": "338"
+    },
+    {
+        "id": 320,
+        "category": "Locales",
+        "name": "ARMADO Y COLOCACION COMPLEJO",
+        "description": "colocación en altura, armado de carteleria, etc",
+        "price": "423"
+    },
+    {
+        "id": 321,
+        "category": "Locales",
+        "name": "ARMADO Y COLOCACION X HR",
+        "description": "x persona",
+        "price": "507"
+    },
+    {
+        "id": 322,
+        "category": "Locales",
+        "name": "GRAFICA VIDRIERA, VINILO DE CORTE UN COLOR ",
+        "description": "1m x 60cm de un color vinilo +trazado +tranfer",
+        "price": "642"
+    },
+    {
+        "id": 323,
+        "category": "Locales",
+        "name": "GRAFICA VIDRIERA, VINILO DE CORTE DOS COLORES",
+        "description": "1m x 60cm por cada color +trazado +tranfer",
+        "price": "980"
+    },
+    {
+        "id": 324,
+        "category": "Locales",
+        "name": "GRAFICA VIDRIERA, VINILO DE CORTE UN COLOR + COLOCACIÓN",
+        "description": "1m x 60cm de un color vinilo +trazado +tranfer +colocación",
+        "price": "980"
+    },
+    {
+        "id": 325,
+        "category": "Locales",
+        "name": "GRAFICA VIDRIERA, VINILO DE CORTE DOS COLORES + COLOCACIÓN",
+        "description": "1m x 60cm por cada colo +trazado +tranfer +colocación",
+        "price": "0"
+    },
+    {
+        "id": 326,
+        "category": "Locales - Bolsas",
+        "name": "BOLSA BASE BLANCA 22X10X30 - 1 COLOR",
+        "description": "ademas se debera sumar el costo de 200 por matriz de color",
+        "price": "15"
+    },
+    {
+        "id": 327,
+        "category": "Locales - Bolsas",
+        "name": "BOLSA BASE BLANCA 30X12X32 - 1 COLOR",
+        "description": "ademas se debera sumar el costo de 200 por matriz de color",
+        "price": "17"
+    },
+    {
+        "id": 328,
+        "category": "Locales - Bolsas",
+        "name": "BOLSA BASE BLANCA 30X12X41 - 1 COLOR",
+        "description": "ademas se debera sumar el costo de 200 por matriz de color",
+        "price": "19"
+    },
+    {
+        "id": 329,
+        "category": "Locales - Bolsas",
+        "name": "BOLSA BASE BLANCA 34X15X48 - 1 COLOR",
+        "description": "ademas se debera sumar el costo de 200 por matriz de color",
+        "price": "22"
+    },
+    {
+        "id": 330,
+        "category": "Locales - Bolsas",
+        "name": "BOLSA BASE BLANCA 45X15X48 - 1 COLOR",
+        "description": "ademas se debera sumar el costo de 200 por matriz de color",
+        "price": "24"
+    },
+    {
+        "id": 331,
+        "category": "Locales - Bolsas",
+        "name": "BOLSA BASE BLANCA 22X10X30 - 2 COLORES",
+        "description": "ademas se debera sumar el costo de 200 por matriz de color",
+        "price": "19"
+    },
+    {
+        "id": 332,
+        "category": "Locales - Bolsas",
+        "name": "BOLSA BASE BLANCA 30X12X32 - 2 COLORES",
+        "description": "ademas se debera sumar el costo de 200 por matriz de color",
+        "price": "21"
+    },
+    {
+        "id": 333,
+        "category": "Locales - Bolsas",
+        "name": "BOLSA BASE BLANCA 30X12X41 - 2 COLORES",
+        "description": "ademas se debera sumar el costo de 200 por matriz de color",
+        "price": "23"
+    },
+    {
+        "id": 334,
+        "category": "Locales - Bolsas",
+        "name": "BOLSA BASE BLANCA 34X15X48 - 2 COLORES",
+        "description": "ademas se debera sumar el costo de 200 por matriz de color",
+        "price": "26"
+    },
+    {
+        "id": 335,
+        "category": "Locales - Bolsas",
+        "name": "BOLSA BASE BLANCA 45X15X48 - 2 COLORES",
+        "description": "ademas se debera sumar el costo de 200 por matriz de color",
+        "price": "28"
+    },
+    {
+        "id": 336,
+        "category": "Locales - Bolsas",
+        "name": "BOLSA BASE BLANCA 22X10X30 - 3 COLORES",
+        "description": "ademas se debera sumar el costo de 200 por matriz de color",
+        "price": "23"
+    },
+    {
+        "id": 337,
+        "category": "Locales - Bolsas",
+        "name": "BOLSA BASE BLANCA 30X12X32 - 3 COLORES",
+        "description": "ademas se debera sumar el costo de 200 por matriz de color",
+        "price": "25"
+    },
+    {
+        "id": 338,
+        "category": "Locales - Bolsas",
+        "name": "BOLSA BASE BLANCA 30X12X41 - 3 COLORES",
+        "description": "ademas se debera sumar el costo de 200 por matriz de color",
+        "price": "27"
+    },
+    {
+        "id": 339,
+        "category": "Locales - Bolsas",
+        "name": "BOLSA BASE BLANCA 34X15X48 - 3 COLORES",
+        "description": "ademas se debera sumar el costo de 200 por matriz de color",
+        "price": "30"
+    },
+    {
+        "id": 340,
+        "category": "Locales - Bolsas",
+        "name": "BOLSA BASE BLANCA 45X15X48 - 3 COLORES",
+        "description": "ademas se debera sumar el costo de 200 por matriz de color",
+        "price": "32"
+    },
+    {
+        "id": 361,
+        "category": "Locales",
+        "name": "S1 - 90X190CM- 1 BRAZO - ECONOMICO",
+        "description": "PORTABANNERS",
+        "price": "0"
+    },
+    {
+        "id": 362,
+        "category": "Locales",
+        "name": "A1 - 90X190CM- 1 BRAZO - EXTENSIBLE",
+        "description": "PORTABANNERS",
+        "price": "0"
+    },
+    {
+        "id": 363,
+        "category": "Locales",
+        "name": "A2 - 90X190CM- 2 BRAZOS BIFAZ EXTENSIBLE",
+        "description": "PORTABANNERS",
+        "price": "0"
+    },
+    {
+        "id": 364,
+        "category": "Locales",
+        "name": "D1 - 90X190CM- 2 BRAZO - FIJO",
+        "description": "PORTABANNERS",
+        "price": "0"
+    },
+    {
+        "id": 365,
+        "category": "Locales",
+        "name": "D3 - 200X190CM- 2 BRAZO",
+        "description": "PORTABANNERS",
+        "price": "0"
+    },
+    {
+        "id": 366,
+        "category": "Locales",
+        "name": "D4 - 300X190CM- 3 BRAZO",
+        "description": "PORTABANNERS",
+        "price": "0"
+    },
+    {
+        "id": 367,
+        "category": "Locales",
+        "name": "ROLL UP (1CM ARRIBA + 2CM ABAJO)",
+        "description": "PORTABANNERS",
+        "price": "0"
+    },
+    {
+        "id": 368,
+        "category": "Locales",
+        "name": "FLY BANNER CON ESTACA",
+        "description": "PORTABANNERS",
+        "price": "0"
+    },
+    {
+        "id": 369,
+        "category": "Locales",
+        "name": "FLY BANNER CON ESTACA Y PIE",
+        "description": "PORTABANNERS",
+        "price": "0"
+    },
+    {
+        "id": 370,
+        "category": "Locales",
+        "name": "FLY BANNER 3.457 X 0.70M (TELA+CONFECCION) X 2 UNIDADES",
+        "description": "PROMO",
+        "price": "0"
+    },
+    {
+        "id": 371,
+        "category": "Locales",
+        "name": "FLY BANNER 3.457 X 0.70M (TELA+CONFECCION) X UNIDAD",
+        "description": "PROMO",
+        "price": "0"
+    },
+    {
+        "id": 372,
+        "category": "Locales",
+        "name": "CORPOREOS 20MM",
+        "description": "Area de corte 1,2 x 0,58 - CAT A blanco + CAT B Pintado",
+        "price": "0"
+    },
+    {
+        "id": 373,
+        "category": "Locales",
+        "name": "CORPOREOS 25MM",
+        "description": "Area de corte 1,2 x 0,58 - CAT A blanco + CAT B Pintado",
+        "price": "0"
+    },
+    {
+        "id": 374,
+        "category": "Locales",
+        "name": "CORPOREOS 30MM",
+        "description": "Area de corte 1,2 x 0,58 - CAT A blanco + CAT B Pintado",
+        "price": "0"
+    },
+    {
+        "id": 375,
+        "category": "Locales",
+        "name": "CORPOREOS 40MM",
+        "description": "Area de corte 1,2 x 0,58 - CAT A blanco + CAT B Pintado",
+        "price": "0"
+    },
+    {
+        "id": 376,
+        "category": "Locales",
+        "name": "CORPOREOS 50MM",
+        "description": "Area de corte 1,2 x 0,58 - CAT A blanco + CAT B Pintado",
+        "price": "0"
+    },
+    {
+        "id": 377,
+        "category": "Impresion2",
+        "name": "FRONTLIGTH",
+        "description": "Roland de 1,6mt - 1440dpi",
+        "price": "0"
+    },
+    {
+        "id": 378,
+        "category": "Impresion2",
+        "name": "BACKLIGTH",
+        "description": "Roland de 1,6mt - 1440dpi",
+        "price": "0"
+    },
+    {
+        "id": 379,
+        "category": "Impresion2",
+        "name": "BLOCKOUT",
+        "description": "Roland de 1,6mt - 1440dpi",
+        "price": "0"
+    },
+    {
+        "id": 380,
+        "category": "Impresion2",
+        "name": "MESH",
+        "description": "Roland de 1,6mt - 1440dpi",
+        "price": "0"
+    },
+    {
+        "id": 381,
+        "category": "Impresion2",
+        "name": "FLAG",
+        "description": "Roland de 1,6mt - 1440dpi",
+        "price": "0"
+    },
+    {
+        "id": 382,
+        "category": "Impresion2",
+        "name": "VINILO BRILLANTE",
+        "description": "Roland de 1,6mt - 1440dpi",
+        "price": "0"
+    },
+    {
+        "id": 383,
+        "category": "Impresion2",
+        "name": "VINILO MATE",
+        "description": "Roland de 1,6mt - 1440dpi",
+        "price": "0"
+    },
+    {
+        "id": 384,
+        "category": "Impresion2",
+        "name": "VINILO TRANSPARENTE \"CRISTAL\"",
+        "description": "Roland de 1,6mt - 1440dpi",
+        "price": "0"
+    },
+    {
+        "id": 385,
+        "category": "Impresion2",
+        "name": "VINILO VAHICULAR",
+        "description": "Roland de 1,6mt - 1440dpi",
+        "price": "0"
+    },
+    {
+        "id": 386,
+        "category": "Impresion2",
+        "name": "VINILO BASE GRIS",
+        "description": "Roland de 1,6mt - 1440dpi",
+        "price": "0"
+    },
+    {
+        "id": 387,
+        "category": "Impresion2",
+        "name": "VINILO ESMERILADO",
+        "description": "Roland de 1,6mt - 1440dpi",
+        "price": "0"
+    },
+    {
+        "id": 389,
+        "category": "Impresion2",
+        "name": "PAPEL BLUEBACK",
+        "description": "Roland de 1,6mt - 1440dpi",
+        "price": "0"
+    },
+    {
+        "id": 390,
+        "category": "Impresion2",
+        "name": "PAPEL CITYLIGHT",
+        "description": "Roland de 1,6mt - 1440dpi",
+        "price": "0"
+    },
+    {
+        "id": 391,
+        "category": "Impresion2",
+        "name": "FILM BACK",
+        "description": "Roland de 1,6mt - 1440dpi",
+        "price": "0"
+    },
+    {
+        "id": 392,
+        "category": "Impresion2",
+        "name": "PAPEL FOTOGRAFICO",
+        "description": "Roland de 1,6mt - 1440dpi",
+        "price": "0"
+    },
+    {
+        "id": 393,
+        "category": "Impresion2",
+        "name": "TELA SIMIL CANVAS",
+        "description": "Roland de 1,6mt - 1440dpi",
+        "price": "0"
+    },
+    {
+        "id": 394,
+        "category": "Impresion2",
+        "name": "VINILO REFLECTIVO IMPRESO",
+        "description": "Roland de 1,6mt - 1440dpi",
+        "price": "0"
+    },
+    {
+        "id": 395,
+        "category": "Impresion2",
+        "name": "BOLSILLOS (POR M LINEAL)",
+        "description": "Terminaciones post impresion",
+        "price": "0"
+    },
+    {
+        "id": 396,
+        "category": "Impresion2",
+        "name": "SOLDADURAS (POR M LINEAL)",
+        "description": "Terminaciones post impresion",
+        "price": "0"
+    },
+    {
+        "id": 397,
+        "category": "Impresion2",
+        "name": "REFUERZOS PARA OJALES",
+        "description": "Terminaciones post impresion",
+        "price": "0"
+    },
+    {
+        "id": 398,
+        "category": "Impresion2",
+        "name": "CONFECCION DE BANDERAS (90X140)",
+        "description": "Terminaciones post impresion",
+        "price": "0"
+    },
+    {
+        "id": 399,
+        "category": "Impresion2",
+        "name": "REFILADO (POR M LINEAL)",
+        "description": "Terminaciones post impresion",
+        "price": "0"
+    },
+    {
+        "id": 400,
+        "category": "Impresion2",
+        "name": "LAQUEADO UV (POR M LINEAL)",
+        "description": "Terminaciones post impresion",
+        "price": "0"
+    },
+    {
+        "id": 401,
+        "category": "Impresion2",
+        "name": "OJALES X UNIDAD",
+        "description": "Terminaciones post impresion",
+        "price": "0"
+    },
+    {
+        "id": 402,
+        "category": "Impresion2",
+        "name": "DISEÑO Y/O RETOQUE DE ARCHIVOS X HS",
+        "description": "Terminaciones post impresion",
+        "price": "0"
+    },
+    {
+        "id": 403,
+        "category": "Impresion2",
+        "name": "TENSADO DE LONA X M2",
+        "description": "Terminaciones post impresion",
+        "price": "0"
+    },
+    {
+        "id": 404,
+        "category": "Impresion2",
+        "name": "ARMADO ROLL UP",
+        "description": "Terminaciones post impresion",
+        "price": "0"
+    },
+    {
+        "id": 405,
+        "category": "Impresion2",
+        "name": "CONFECCION DE BANDERAS FLY ",
+        "description": "Terminaciones post impresion",
+        "price": "0"
+    },
+    {
+        "id": 406,
+        "category": "Impresion2",
+        "name": "BASTIDOR DE MADERA X M2",
+        "description": "Terminaciones post impresion",
+        "price": "0"
+    },
+    {
+        "id": 407,
+        "category": "Impresion2",
+        "name": "MONTADO M2",
+        "description": "Terminaciones post impresion",
+        "price": "0"
+    },
+    {
+        "id": 408,
+        "category": "Descuento",
+        "name": "DESCUENTO DEL 20%",
+        "description": "Pago en efectivo",
+        "price": "0"
+    },
+    {
+        "id": 409,
+        "category": "Descuento",
+        "name": "DESCUENTO DEL 15%",
+        "description": "Pago en efectivo",
+        "price": "0"
+    },
+    {
+        "id": 410,
+        "category": "Descuento",
+        "name": "DESCUENTO DEL 10%",
+        "description": "Pago en efectivo",
+        "price": "0"
+    },
+    {
+        "id": 411,
+        "category": "PROMOCIÓN",
+        "name": "GRAFICA PUBLICITARIA PLOTTER",
+        "description": "",
+        "price": "675"
+    },
+    {
+        "id": 412,
+        "category": "PROMOCIÓN",
+        "name": "GRAFICA PUBLICITARIA VIDRIERA",
+        "description": "",
+        "price": "2025"
+    },
+    {
+        "id": 413,
+        "category": "PROMOCIÓN",
+        "name": "GRAFICA PUBLICITARIA VEHICULO",
+        "description": "",
+        "price": "4050"
+    },
+    {
+        "id": 414,
+        "category": "PROMOCIÓN",
+        "name": "GRAFICA PUBLICITARIA FURGON",
+        "description": "",
+        "price": "6750"
+    },
+    {
+        "id": 415,
+        "category": "Doh Servicios",
+        "name": "MODELADO 3D",
+        "description": "",
+        "price": "2160"
+    },
+    {
+        "id": 416,
+        "category": "Doh Servicios",
+        "name": "MODELADO 3D COMPLEJO",
+        "description": "",
+        "price": "3240"
+    },
+    {
+        "id": 417,
+        "category": "Doh Servicios",
+        "name": "CATALOGO TRIPTICO, INFORMACION Y DETALLES",
+        "description": "",
+        "price": "5400"
+    },
+    {
+        "id": 418,
+        "category": "Doh Servicios",
+        "name": "MAPA GEOGRAF LOCALIZACION DE BASE DE DATOS",
+        "description": "",
+        "price": "1350"
+    },
+    {
+        "id": 419,
+        "category": "Doh Servicios",
+        "name": "EDICION DE FOLLETO, MARCAS, NUMERACION, ETC. .XHOJA",
+        "description": "",
+        "price": "54"
+    },
+    {
+        "id": 420,
+        "category": "Doh Servicios",
+        "name": "IDENTIDAD DE LINEA DE products",
+        "description": "",
+        "price": "17550"
+    },
+    {
+        "id": 421,
+        "category": "Doh Servicios",
+        "name": "DISEÑO Y DESARROLLO DE PROPUESTA",
+        "description": "",
+        "price": "1215"
+    },
+    {
+        "id": 422,
+        "category": "Doh Servicios",
+        "name": "DISEÑO DE BANNER",
+        "description": "",
+        "price": "810"
+    },
+    {
+        "id": 423,
+        "category": "Doh Servicios",
+        "name": "BANNER COMPLETO, ARMADO E IMPRESO (90X190)",
+        "description": "90x190",
+        "price": "1620"
+    },
+    {
+        "id": 424,
+        "category": "Doh Servicios",
+        "name": "STICKER ANIMADO PARA REDES SOCIALES",
+        "description": "Desarrollo de animación de logotipo, frase o elementos vectoriales 2D de no mas de 10 seg. Incluye alojamiento y puesta online",
+        "price": "9450"
+    },
+    {
+        "id": 425,
+        "category": "Diseño Interior",
+        "name": "DISEÑO INTERIOR, ANTEPROYECTO",
+        "description": "valor por m2",
+        "price": "12150"
+    },
+    {
+        "id": 426,
+        "category": "Diseño Interior",
+        "name": "DISEÑO INTERIOR, PROYECTO",
+        "description": "",
+        "price": "0"
+    },
+    {
+        "id": 427,
+        "category": "Diseño Interior",
+        "name": "DISEÑO DE MOBILIARIO, PROYECCIÓN",
+        "description": "",
+        "price": "0"
+    },
+    {
+        "id": 428,
+        "category": "Diseño Interior",
+        "name": "DISEÑO DE MOBILIARIO, DIRECCIÓN",
+        "description": "",
+        "price": "0"
+    },
+    {
+        "id": 429,
+        "category": "Pack Pyme",
+        "name": "JUNIOR",
+        "description": "Hasta 3 aplicaciones\nArchivos digitales de Tarjetas Personales\nFirma para Mail\nFoto de Perfil",
+        "price": "3375"
+    },
+    {
+        "id": 430,
+        "category": "Pack Pyme",
+        "name": "SENIOR",
+        "description": "Hasta 5 aplicaciones\n500 Tarjetas Personales Color, acabado Brillo\nFirma para Mail\nFoto de Perfil y Portada Redes\n+ 1 Folleto digital",
+        "price": "5400"
+    },
+    {
+        "id": 431,
+        "category": "Pack Pyme",
+        "name": "PROFESIONAL",
+        "description": "Diseño de Marca e identidad Corporativa\nlogotipo con manual de Marca\nHasta 5 aplicaciones\n500 Tarjetas Personales acabado Mate o Brillo\n500 Folletos 10X10\nFirma para Mail\nFoto de Perfil y Portada Redes\n+ 1 Folleto digital",
+        "price": "7425"
+    },
+    {
+        "id": 432,
+        "category": "WEB´s",
+        "name": "HOSTING BÁSICO",
+        "description": "Hosting por 1 año de 1 GB Disco\nHasta 3 Casillas de Correo\nAcceso Webmail\nSoporte 24x7\nPanel Hosting\n",
+        "price": "4500"
+    },
+    {
+        "id": 433,
+        "category": "WEB´s",
+        "name": "HOSTING INTERMEDIO",
+        "description": "Hosting por 1 año de 5 GB Disco\nHasta 10 Casillas de Correo\nAcceso Webmail\nConexión correos Gmail\nSoporte 24x7\n5 Subdominios \nPanel Hosting\n",
+        "price": "7300"
+    },
+    {
+        "id": 434,
+        "category": "WEB´s",
+        "name": "HOSTING PROFESIONAL E-COMMERCE",
+        "description": "Hosting por 1 año de 10 GB Disco\nCasillas de Correo ilimitadas\nAcceso Webmail\nCifrado de Seguridad SSL (https)\nConexión correos Gmail\nBase de datos MySQL 5\nCopias de Seguridad Mensual\nSoporte 24x7\nPanel Hosting\n",
+        "price": "11580"
+    },
+    {
+        "id": 435,
+        "category": "WEB´s",
+        "name": "POSICIONAMIENTO WEB",
+        "description": "Costo mensual (plazo mínimo sugerido: 3 meses). No incluye inversión en “AdWords” o similar.",
+        "price": "3375"
+    },
+    {
+        "id": 436,
+        "category": "WEB´s",
+        "name": "WEB INSTITUCIONAL / EMPRESA",
+        "description": "Diseño sitio web responsivo/adaptativo a dispositivos moviles (PC, mobile, tablet). Home y 3 secciones (Nosotros, productos y formulario de contacto para enviar correo y datos de contacto con vinculos a redes sociales)",
+        "price": "24975"
+    },
+    {
+        "id": 437,
+        "category": "WEB´s",
+        "name": "WEB COMERCIAL E-COMMERCE",
+        "description": "Diseño y desarrollo de plataforma E-commerce autoadministrable. Diseño sitio web responsivo / adaptativo a dispositivos moviles (PC, mobile, tablet). Home con galeria de imagenes, 5 Categorias y 10 productos. Configuración medio de pago (Mercadopago y/o datos para transferencia) y Envio basado en peso (Oca o Correo Arg) y/o gratuito. ",
+        "price": "33750"
+    },
+    {
+        "id": 438,
+        "category": "WEB´s",
+        "name": "CORREO PROFESIONAL ",
+        "description": "Casilla de correo profesional tunombre@tudominio.com.ar- 500mb de almacenamiento",
+        "price": "1013"
+    },
+    {
+        "id": 440,
+        "category": "WEB´s",
+        "name": "MANTENIMIENTO ANUAL HOSTING",
+        "description": "",
+        "price": "5300"
+    },
+    {
+        "id": 441,
+        "category": "WEB´s",
+        "name": "MATENIMIENTO MENSUAL",
+        "description": "Mantenimiento del hosteo y parkeo de dominio, bakcups información mensuales",
+        "price": "1080"
+    },
+    {
+        "id": 442,
+        "category": "WEB´s",
+        "name": "REGISTRO DE DOMINIO .COM.AR",
+        "description": "servicio de registro de dominio y transferencia de datos",
+        "price": "1350"
+    },
+    {
+        "id": 443,
+        "category": "WEB´s",
+        "name": "REGISTRO DE DOMINIO .COM",
+        "description": "servicio de registro de dominio y transferencia de datos",
+        "price": "1283"
+    },
+    {
+        "id": null,
+        "category": "WEB´s",
+        "name": "INTEGRACIÓN MERCADOPAGO",
+        "description": "",
+        "price": "6075"
+    },
+    {
+        "id": null,
+        "category": "WEB´s",
+        "name": "INTEGRACION ENVÍO",
+        "description": "",
+        "price": "6075"
+    },
+    {
+        "id": null,
+        "category": "WEB´s",
+        "name": "INTEGRACIÓN ANALITICAS DE GOOGLE",
+        "description": "",
+        "price": "6075"
+    },
+    {
+        "id": null,
+        "category": "WEB´s",
+        "name": "Cifado de seguridad SSL",
+        "description": "Seguridad y prestigio para tu sitio web.\nPrimer Año $1.880 - Renovación anual $3.490\nSin un Certificado SSL, Google Chrome mostrará que tu sitio no es seguro. (Servicio Anual)",
+        "price": "4600"
+    },
+    {
+        "id": 439,
+        "category": "WEB´s",
+        "name": "CARGA DE products POR 10 UNIDADES",
+        "description": "Carga de información, precios, promosiones, edicion de imagenes, etc",
+        "price": "4050"
+    },
+    {
+        "id": null,
+        "category": "WEB´s",
+        "name": "CARGA DE products POR 40 UNIDADES",
+        "description": "Carga de información, precios, promosiones, edicion de imagenes, etc",
+        "price": "10800"
+    },
+    {
+        "id": null,
+        "category": "WEB´s",
+        "name": "CARGA DE products POR 100 UNIDADES",
+        "description": "Carga de información, precios, promosiones, edicion de imagenes, etc",
+        "price": "22275"
+    },
+    {
+        "id": 444,
+        "category": "Redes Sociales",
+        "name": "MANTENIMIENDO INICIAL (FACEBOOK, TWITTER, INSTAGRAM)",
+        "description": "1 publicación semanal",
+        "price": "5400"
+    },
+    {
+        "id": 445,
+        "category": "Redes Sociales",
+        "name": "MANTENIMIENDO INTERMEDIO (FACEBOOK, TWITTER, INSTAGRAM)",
+        "description": "2 publicaciónes semanales - Mensualidad Redes Sociales, Creacion de contenido, redacción, mantenimiento. Respuestas y deribar consultas. 3 post mensuales",
+        "price": "8100"
+    },
+    {
+        "id": 446,
+        "category": "Redes Sociales",
+        "name": "MANTENIMIENDO AVANZADO (FACEBOOK, TWITTER, INSTAGRAM)",
+        "description": "4 publicaciónes semanales - Mensualidad Redes Sociales, Creacion de contenido, redacción, mantenimiento. Respuestas y deribar consultas. 6 post mensuales",
+        "price": "10800"
+    },
+    {
+        "id": null,
+        "category": "Redes Sociales",
+        "name": "POSTEOS  individual",
+        "description": "Graficas para posteo en redes sociales, en formato cuadrado y adaptacion en historia",
+        "price": "1215"
+    },
+    {
+        "id": null,
+        "category": "Redes Sociales",
+        "name": "POSTEOS  Mensuales x4",
+        "description": "Graficas para posteo en redes sociales, en formato cuadrado y adaptacion en historia",
+        "price": "6075"
+    },
+    {
+        "id": null,
+        "category": "Redes Sociales",
+        "name": "POSTEOS Mensuales x8",
+        "description": "Graficas para posteo en redes sociales, en formato cuadrado y adaptacion en historia",
+        "price": "10125"
+    },
+    {
+        "id": null,
+        "category": "Redes Sociales",
+        "name": "POSTEOS  Mensuales x12",
+        "description": "Graficas para posteo en redes sociales, en formato cuadrado y adaptacion en historia",
+        "price": "14850"
+    },
+    {
+        "id": null,
+        "category": "PUBLICIDAD",
+        "name": "Campaña google o facebook ads",
+        "description": "Creación de campaña en google ads o facebook ads publicitando productos o servicios, analisis de resultados y optimización periodica. costo Mensual por plataforma +10% inversión publicitaria",
+        "price": "6075"
+    },
+    {
+        "id": null,
+        "category": "PUBLICIDAD",
+        "name": "Paquete de gif para redes",
+        "description": "Desarrollo y alta de 5 gif´s para utilizar cuenta en instagram stories",
+        "price": "16875"
+    },
+    {
+        "id": null,
+        "category": "PUBLICIDAD",
+        "name": "Filtro Realidad Auementada",
+        "description": "",
+        "price": "24300"
+    },
+    {
+        "id": 447,
+        "category": "Locales",
+        "name": "BANDERAS 45*65",
+        "description": "",
+        "price": "273"
+    },
+    {
+        "id": 448,
+        "category": "Papeleria impresa",
+        "name": "IMPRESION HOJAS A4 (COD A=MENOS 100U B= MAS 100U)",
+        "description": "desde papel obra hasta cartulina de 350 gs.\nAdhesivos brillo, obra, transparente,\npapel ilustración, cartulinas, etc.",
+        "price": "21"
+    },
+    {
+        "id": 449,
+        "category": "Papeleria impresa",
+        "name": "IMPRESION HOJAS A3 (COD A=MENOS 100U B= MAS 100U)",
+        "description": "desde papel obra hasta cartulina de 350 gs.\nAdhesivos brillo, obra, transparente,\npapel ilustración, cartulinas, etc.",
+        "price": "39"
+    },
+    {
+        "id": 450,
+        "category": "Papeleria impresa",
+        "name": "IMPRESION HOJAS A4 + LAMINADO  (COD A=MENOS 100U B= MAS 100U)",
+        "description": "desde papel obra hasta cartulina de 350 gs.\nAdhesivos brillo, obra, transparente,\npapel ilustración, cartulinas, etc.",
+        "price": "39"
+    },
+    {
+        "id": 451,
+        "category": "Papeleria impresa",
+        "name": "IMPRESION HOJAS A3 + LAMINADO (COD A=MENOS 100U B= MAS 100U)",
+        "description": "desde papel obra hasta cartulina de 350 gs.\nAdhesivos brillo, obra, transparente,\npapel ilustración, cartulinas, etc.",
+        "price": "42"
+    },
+    {
+        "id": 452,
+        "category": "Papeleria impresa",
+        "name": "HOJAS MEMBRETADAS A4, PAPEL OBRA 90GR (100U LASER)",
+        "description": "(paquetes de 100hojas)",
+        "price": "8"
+    },
+    {
+        "id": 453,
+        "category": "Papeleria impresa",
+        "name": "STICKERS CUADRADOS - LAMINADOS MATE (A4 LASER)",
+        "description": "Laser",
+        "price": "15"
+    },
+    {
+        "id": 454,
+        "category": "Papeleria impresa",
+        "name": "STICKERS LOGOS TRAZADOS - VINILO IMPRESO, LAMINADO MATE",
+        "description": "Vinilo Impreso, Laminado mate",
+        "price": "676"
+    },
+    {
+        "id": 455,
+        "category": "Papeleria impresa",
+        "name": "CARPETAS INSTITUCIONALES IMPRESION OFFSET (MIN 100U) (COD A= 100 B=200 C=500)",
+        "description": "Laminadas Mate o Brillo. Para contener Hojas A4\nMedida cerrada: 23 x 31,5",
+        "price": "9360"
+    },
+    {
+        "id": 456,
+        "category": "",
+        "name": "",
+        "description": "",
+        "price": ""
+    },
+    {
+        "id": 457,
+        "category": "Tienda",
+        "name": "BANNERS Y PORTA BANNER ROLL UP - LONA FRONT",
+        "description": "Impresión en Lona Front. - Full color 1440dpi - Con portabanner Roll up de primera calidad con funda",
+        "price": "5520"
+    },
+    {
+        "id": 458,
+        "category": "Tienda",
+        "name": "BANNERS Y PORTA BANNER 2 TENSORES - LONA FRONT",
+        "description": "Impresión en Lona Front. - Full color 1440dpi - Con portabanner de dos tensores de primera calidad con funda",
+        "price": "3680"
+    },
+    {
+        "id": 459,
+        "category": "Tienda",
+        "name": "BANNERS Y PORTA BANNERS 1 TENSORES - LONA FRONT",
+        "description": "Impresión en Lona Front. - Full color 1440dpi - Con portabanner de un tensores de primera calidad con funda",
+        "price": "3220"
+    },
+    {
+        "id": 460,
+        "category": "Tienda",
+        "name": "BANNERS COLGANTE CON DOS BOLSILLOS",
+        "description": "Impresión en Lona Front. - Full color 1440dpi - Con bolsillos arriba y abajo",
+        "price": "1725"
+    },
+    {
+        "id": 461,
+        "category": "Tienda",
+        "name": "VIDRIERAS DÍA DEL PADRE",
+        "description": "",
+        "price": "0"
+    },
+    {
+        "id": 462,
+        "category": "Tienda",
+        "name": "VIDRIERAS DÍA DE LA MADRE",
+        "description": "",
+        "price": "0"
+    },
+    {
+        "id": 463,
+        "category": "Tienda",
+        "name": "CUADROS COLGANTES CON GRÁFICAS",
+        "description": "",
+        "price": "0"
+    },
+    {
+        "id": 464,
+        "category": "Tienda",
+        "name": "CUADROS LOCALES",
+        "description": "",
+        "price": "0"
+    },
+    {
+        "id": 465,
+        "category": "Tienda",
+        "name": "TARJETAS PERSONALES  (COD A= 500 B=1000 C=2000)",
+        "description": "Impresión en cartulina 300 gs. Frente a todo color, dorso tinta negra\nlaca brillante completa sobre el frente",
+        "price": "920"
+    },
+    {
+        "id": 466,
+        "category": "Tienda",
+        "name": "TARJETAS PERSONALES (COD A= 500 B=1000 C=2000)",
+        "description": "Impresión en cartulina 350 gs. Frente a todo color, dorso todo color\nlaminado mate ambos lados",
+        "price": "1495"
+    },
+    {
+        "id": 467,
+        "category": "Tienda",
+        "name": "TARJETAS PERSONALES (COD A= 500 B=1000 C=2000)",
+        "description": "Impresión en cartulina 350 gs. Frente a todo color, dorso todo color\nlaminado mate ambos lados + aplicación laca sectorizada en frente",
+        "price": "1909"
+    },
+    {
+        "id": 468,
+        "category": "Tienda",
+        "name": "TARJETAS PERSONALES (COD A= 100 B=200)",
+        "description": "Impresión en cartulina 300 gs. Frente a todo color, dorso tinta negra\nlaca brillante completa sobre el frente",
+        "price": "759"
+    },
+    {
+        "id": 469,
+        "category": "Tienda",
+        "name": "TARJETAS PERSONALES 5X9 PREMIUM LAMINADO MATE Y HOT STAMPING ORO O PLATA  (COD A= 500 B=1000 C=2000)",
+        "description": "Impresión en cartulina 300 gs. Frente a todo color, dorso tinta negra - Aplicacion hot stamping plata u oro sobre el frente",
+        "price": "3220"
+    },
+    {
+        "id": 470,
+        "category": "Tienda",
+        "name": "CARPETAS INSTITUCIONALES IMPRESION LASER (MIN 20U.)",
+        "description": "Impresas en laser, con solapa pegada (A) sin laminar (B) Laminado Brillo o Mate",
+        "price": "74"
+    },
+    {
+        "id": 471,
+        "category": "Tienda",
+        "name": "FLYERS ILUSTRACIÓN 10X10",
+        "description": "En papel ilustración brillante de 130 gs.\nImpresión a 1 color, 2 colores o todo color igual precio.\nSimple o doble faz, precios de acuerdo a tamaños.",
+        "price": "1794"
+    },
+    {
+        "id": 472,
+        "category": "Tienda",
+        "name": "FLYERS ILUSTRACIÓN 10X15",
+        "description": "En papel ilustración brillante de 130 gs.\nImpresión a 1 color, 2 colores o todo color igual precio.\nSimple o doble faz, precios de acuerdo a tamaños.",
+        "price": "2185"
+    },
+    {
+        "id": 473,
+        "category": "Tienda",
+        "name": "FLYERS ILUSTRACIÓN 10X30",
+        "description": "En papel ilustración brillante de 130 gs.\nImpresión a 1 color, 2 colores o todo color igual precio.\nSimple o doble faz, precios de acuerdo a tamaños.",
+        "price": "3795"
+    },
+    {
+        "id": 474,
+        "category": "Tienda",
+        "name": "FLYERS ILUSTRACIÓN 10X20 + DOBLADO ( 10X10 FINAL)",
+        "description": "En papel ilustración brillante de 130 gs.\nImpresión a 1 color, 2 colores o todo color igual precio.\nEl doblado puede ser bíptico o tríptico",
+        "price": "3588"
+    },
+    {
+        "id": 475,
+        "category": "Tienda",
+        "name": "FLYERS ILUSTRACIÓN 15X20 + DOBLADO ( 15X10 FINAL)",
+        "description": "En papel ilustración brillante de 130 gs.\nImpresión a 1 color, 2 colores o todo color igual precio.\nEl doblado puede ser bíptico o tríptico",
+        "price": "4025"
+    },
+    {
+        "id": 476,
+        "category": "Tienda",
+        "name": "FLYERS ILUSTRACIÓN 20X20 + DOBLADO ( 20X10 FINAL)",
+        "description": "En papel ilustración brillante de 130 gs.\nImpresión a 1 color, 2 colores o todo color igual precio.\nEl doblado puede ser bíptico o tríptico",
+        "price": "5060"
+    },
+    {
+        "id": null,
+        "category": "Tienda",
+        "name": "BOLIGRAFO DOOB",
+        "description": "impr Blanco. (A)x50u  (B)x100u (C)x200u",
+        "price": "68"
+    },
+    {
+        "id": null,
+        "category": "Tienda",
+        "name": "BOLIGRAFO LOLIPOP",
+        "description": "impr Blanco. (A)x50u  (B)x100u (C)x200u",
+        "price": "74"
+    },
+    {
+        "id": null,
+        "category": "Tienda",
+        "name": "BOLIGRAFO CALIFORNIA",
+        "description": "impr Blanco. (A)x50u  (B)x100u (C)x200u",
+        "price": "80"
+    },
+    {
+        "id": null,
+        "category": "Tienda",
+        "name": "BOLIGRAFO BILL",
+        "description": "impr Blanco. (A)x50u  (B)x100u (C)x200u",
+        "price": "100"
+    },
+    {
+        "id": null,
+        "category": "Tienda",
+        "name": "BOLIGRAFO BREMEN",
+        "description": "impr Blanco. (A)x50u  (B)x100u (C)x200u",
+        "price": "84"
+    },
+    {
+        "id": null,
+        "category": "Tienda",
+        "name": "BOLIGRAFO MIRAGE",
+        "description": "impr Blanco. (A)x50u  (B)x100u (C)x200u",
+        "price": "104"
+    },
+    {
+        "id": null,
+        "category": "Tienda",
+        "name": "BOLIGRAFO MALIBU",
+        "description": "impr Blanco. (A)x50u  (B)x100u (C)x200u",
+        "price": "110"
+    },
+    {
+        "id": null,
+        "category": "Tienda",
+        "name": "PAD RECTANGULAR 19CM X 21CM CON IMPRESION SUBLIMADA",
+        "description": "Los archivos deben venir espejados y con una demasía de color de 5mm toda la vuelta. (A)x11u  (B)x23u (C)x25u o +",
+        "price": "260"
+    },
+    {
+        "id": null,
+        "category": "Tienda",
+        "name": "PAD REDONDO 20CM DE DIAMETRO CON IMPRESION SUBLIMADA",
+        "description": "Los archivos deben venir espejados y con una demasía de color de 5mm toda la vuelta. (A)x11u  (B)x23u (C)x25u o +",
+        "price": "260"
+    }
+]
