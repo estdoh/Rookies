@@ -9,10 +9,8 @@ class ProductsModel {
     }
     
     function getProducts() {
-        $query = $this->db->prepare('SELECT products.*,category.name as name_category, sub_category.name as name_sub_category 
-                                    FROM products 
-                                    JOIN category ON products.category = category.id_category
-                                    JOIN sub_category ON products.sub_category = sub_category.id_s_category
+        $query = $this->db->prepare('SELECT *
+                                    FROM products                                    
                                     ORDER BY products.id ASC');
         $query->execute();
         $products = $query->fetchAll(PDO::FETCH_OBJ);
@@ -20,10 +18,9 @@ class ProductsModel {
     }
 
     function getProductById($id) {
-        $query = $this->db->prepare('SELECT products.*,category.name as name_category, sub_category.name as name_sub_category 
+        $query = $this->db->prepare('SELECT * 
                                      FROM products 
-                                     JOIN sub_category ON products.sub_category = sub_category.id_s_category
-                                     JOIN category ON products.category = category.id_category WHERE id=?
+                                     WHERE id=?
                                      ');
         $query->execute(array($id));
         $product = $query->fetch(PDO::FETCH_OBJ);        
@@ -76,18 +73,18 @@ class ProductsModel {
         return $products;
     }
 
-    function addProduct($category,$name,$description,$price) {   
-       $query = $this->db->prepare('INSERT INTO `products`(category,name,description,price) 
-                                    VALUES (?,?,?,?)');
-        $query->execute([$category,$name,$description,$price]);
+    function addProduct($id,$category,$name,$description,$price) {   
+       $query = $this->db->prepare('INSERT INTO products (id,category,name,description,price) 
+                                    VALUES (?,?,?,?,?)');
+        $query->execute([$id,$category,$name,$description,$price]);
         $product = $query->fetch(PDO::FETCH_OBJ);
-        // return $product;    
-        return $this->db->lastInsertId();
+        return $product;    
+        // return $this->db->lastInsertId();
     }
 
     function updateProductById($category, $name, $description,$price, $id){       
-        $query = $this->db->prepare('UPDATE products SET category=?, name=?, description=?, price_a=?, price_b=? WHERE id=?');
-        $query->execute([$category, $name, $description, $price_a, $price_b, $id]);    
+        $query = $this->db->prepare('UPDATE products SET category=?, name=?, description=?, price=? WHERE id=?');
+        $query->execute([$category, $name, $description, $price, $id]);    
         $product = $query->fetchAll(PDO::FETCH_OBJ);
         return $product;
     }

@@ -55,11 +55,11 @@ class ApiProductController{
     function insertProduct($params = null){
         //agarro los datos de request (json)
         $body = $this->getBody();
-        echo $body;
+        // echo $body;
         // verifica si la tarea existe
         if (!empty($body)) {
-            $id = $this->model->addProduct($body->category,$body->name,$body->description,$body->price);
-            $this->view->response( $this->model->getProductById($id), 200);
+            $this->model->addProduct($body->id,$body->category,$body->name,$body->description,$body->price);
+            // $this->view->response( $this->model->getProductById($id), 200);
         } else {
             $this->view->response("El producto no se pudo insertar", 404);
         };
@@ -77,7 +77,7 @@ class ApiProductController{
         $product = $this->model->getProducts($id);
         // verifica si la tarea existe
         if (!empty($product)) {
-            $this->model->updateProductById($body->category,$body->name,$body->description,$body->price_a,$body->price_b,$id);
+            $this->model->updateProductById($body->category,$body->name,$body->description,$body->price,$id);
             $this->view->response( $this->model->getProductById($id), 200);
         } else {
             $this->view->response("El producto no se pudo insertar", 404);
