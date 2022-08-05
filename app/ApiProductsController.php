@@ -14,7 +14,11 @@ class ApiProductController{
 
     function getProducts(){
         $productos = $this->model->getProducts();
-        return $this->view->response($productos, 200);
+        if (!empty($productos)){
+            return $this->view->response($productos, 200);
+        } else {
+            $this->view->response("no existen productos", 404);
+        };
     }
     
     function addProducts(){
@@ -32,13 +36,24 @@ class ApiProductController{
         };
     }
 
-    function getProductsByPlace($params = null){
-        // get url params Api
-        // $sort = $params[":sort"];
-        $place = $params[":place"];
-        // $category = $params[":category"];
-        $productos = $this->model->getProductsByPlace($place);
-        return $this->view->response($productos, 200);
+    // get producto by category
+    function getProductsByCategory($params = null){
+        $category = $params[":category"];
+        $productos = $this->model->getProductsByCategory($category);
+        if (!empty($productos)){
+            return $this->view->response($productos, 200);
+        } else {
+            $this->view->response("La categoria=$category no existe", 404);
+        };
+    }
+    // get categories from products
+    function getCategoriesFromProducts(){
+        $categories = $this->model->getCategoriesFromProducts();
+        if (!empty($categories)){
+            return $this->view->response($categories, 200);
+        } else {
+            $this->view->response("No hay categorias", 404);
+        };
     }
 
     function deleteProduct($params = null) {

@@ -27,15 +27,25 @@ class ProductsModel {
         return $product;       
     }
 
-    function getProductsByPlace($place) {
-        $query = $this->db->prepare("SELECT products.*,category.name as name_category, sub_category.name as name_sub_category 
+    // function getProductsByCategory()
+    function getProductsByCategory($category) {
+        $query = $this->db->prepare("SELECT * 
                                      FROM products 
-                                     JOIN sub_category ON products.sub_category = sub_category.id_s_category
-                                     JOIN category ON products.category = category.id_category WHERE place=?
+                                     WHERE category=?
                                      ");
-        $query->execute([$place]);
+        $query->execute([$category]);
         $products = $query->fetchAll(PDO::FETCH_OBJ);
         return $products;       
+    }
+    
+    // select distinct category from products
+    function getCategoriesFromProducts() {
+        $query = $this->db->prepare("SELECT distinct category
+                                     FROM products
+                                     ");
+        $query->execute();
+        $categories = $query->fetchAll(PDO::FETCH_OBJ);
+        return $categories;
     }
 
     function getProductsBy($searchBy, $search) {
