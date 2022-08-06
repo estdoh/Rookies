@@ -32,15 +32,15 @@ class CustomerModel {
     }
 
     function addCustomer($clientId, $clientName, $clientMail, $clientPhone){
-        $query = $this->db->prepare('INSERT INTO customers (client_id,client_name,client_mail,client_phone) VALUES (NULL,?,?,?)');
+        $query = $this->db->prepare('INSERT INTO customers (client_id,client_name,client_mail,client_phone) VALUES (?,?,?,?)');
         $query->execute(array($clientId, $clientName, $clientMail, $clientPhone));
         $customer = $query->fetch(PDO::FETCH_OBJ);
         return $customer;
     }
 
-    function updateCustomerById($rol, $clientId){
-        $query = $this->db->prepare('UPDATE customers SET rol=? WHERE client_id=?');
-        $query->execute([$rol, $id]);
+    function updateCustomerById($clientName, $clientMail, $clientPhone, $clientId){
+        $query = $this->db->prepare('UPDATE customers SET client_name=?, client_mail=?, client_phone=? WHERE client_id=?');
+        $query->execute([$clientName, $clientMail, $clientPhone, $clientId]);
         $customer = $query->fetchAll(PDO::FETCH_OBJ);
         return $customer;
     }

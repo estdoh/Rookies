@@ -32,18 +32,18 @@ class ApiCustomerController{
         if (!empty($customer)){
             return $this->view->response($customer, 200);
         } else {
-            $this->view->response("La customer con el id=$id no existe", 404);
+            $this->view->response("El cliente con el id=$id no existe", 404);
         };
     }
    
     function deleteCustomer($params = null) {
         $id = $params[':ID'];
-        $customer = $this->model->getCustomers($id);
+        $customer = $this->model->getCustomerById($id);
         if($customer){
-            $this->model->deleteCustomers($id);
-            $this->view->response("El customer con el id=$id fue eliminada", 200);
+            $this->model->deleteCustomer($id);
+            $this->view->response("El cliente con el id=$id fue eliminada", 200);
         } else {
-            $this->view->response("El customer con el id=$id no existe", 404);
+            $this->view->response("El cliente con el id=$id no existe", 404);
         };
     }
 
@@ -53,10 +53,10 @@ class ApiCustomerController{
         // echo $body;
         // verifica si la tarea existe
         if (!empty($body)) {
-            $this->model->addCustomer($body->id,$body->category,$body->name,$body->description,$body->price);
+            $this->model->addCustomer($body->client_id,$body->client_name,$body->client_mail,$body->client_phone);
             // $this->view->response( $this->model->getCustomerById($id), 200);
         } else {
-            $this->view->response("El customer no se pudo insertar", 404);
+            $this->view->response("El cliente no se pudo insertar", 404);
         };
     }
 
@@ -69,10 +69,10 @@ class ApiCustomerController{
         $id = $params[':ID'];
         //agarro los datos de request (json)
         $body = $this->getBody();
-        $customer = $this->model->getCustomers($id);
+        $customer = $this->model->getCustomerById($id);
         // verifica si la tarea existe
         if (!empty($customer)) {
-            $this->model->updateCustomerById($body->category,$body->name,$body->description,$body->price,$id);
+            $this->model->updateCustomerById($body->client_name,$body->client_mail,$body->client_phone,$id);
             $this->view->response( $this->model->getCustomerById($id), 200);
         } else {
             $this->view->response("El customer no se pudo insertar", 404);
