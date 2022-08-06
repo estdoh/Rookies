@@ -42,6 +42,7 @@ class ProductsModel {
     function getCategoriesFromProducts() {
         $query = $this->db->prepare("SELECT distinct category
                                      FROM products
+                                     ORDER BY category ASC
                                      ");
         $query->execute();
         $categories = $query->fetchAll(PDO::FETCH_OBJ);

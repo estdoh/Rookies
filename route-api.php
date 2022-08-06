@@ -2,6 +2,7 @@
 require_once 'libs/Router.php';
 require_once 'app/ApiProductsController.php';
 require_once 'app/ApiUserController.php';
+require_once 'app/ApiCustomersController.php';
 
 // crea el router
 $router = new Router();
@@ -13,6 +14,12 @@ $router->addRoute('products/:category', 'GET', 'ApiProductController', 'getProdu
 $router->addRoute('products/:ID', 'DELETE', 'ApiProductController', 'deleteProduct');
 $router->addRoute('products', 'POST', 'ApiProductController', 'insertProduct');
 $router->addRoute('products/:ID', 'PUT', 'ApiProductController', 'editProduct');
+
+$router->addRoute('customers', 'GET', 'ApiCustomerController', 'getCustomers');
+$router->addRoute('customers/:ID', 'GET', 'ApiCustomerController', 'getCustomer');
+$router->addRoute('customers/:ID', 'DELETE', 'ApiCustomerController', 'deleteCustomer');
+$router->addRoute('customers', 'POST', 'ApiCustomerController', 'insertCustomer');
+$router->addRoute('customers/:ID', 'PUT', 'ApiCustomerController', 'editCustomer');
 
 $router->addRoute('categories', 'GET', 'ApiProductController', 'getCategoriesFromProducts');
 // $router->addRoute('categories/:ID', 'GET', 'ApiCategoryController', 'getCategory');
