@@ -3,16 +3,8 @@ require_once 'Conect.php';
 
 class ProductsModel extends Conectdb{
 
-    function getProducts() {        
-        $query = $this->db->prepare('SELECT *
-                                    FROM products                                    
-                                    ORDER BY products.id ASC');
-        $query->execute();
-        $products = $query->fetchAll(PDO::FETCH_OBJ);
-        return $products;
-    }
-
-    function getProductsWWWW($orderBy, $order, $pagination, $search) {
+    
+    function getProducts($orderBy, $order, $pagination, $search) {
         if (isset($search['searchBy']) && isset($search['orderBy']) ) {  
             $queryFiltering = 'WHERE products.' . $search['searchBy'] . ' LIKE "' . $search['filterBy'] . '"';            
         } else {

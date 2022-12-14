@@ -13,25 +13,12 @@ class ApiProductController{
     }
 
     function getProducts(){
-        $productos = $this->model->getProducts();
-        // var_dump($productos);
-        if (!empty($productos)){
-            return $this->view->response($productos, 200);
-        } else {
-            $this->view->response("no existen productos", 404);
-        };
-    }
-
-    function getProductsWWW(){
         $order = $this->getOrder();
         $orderBy = $this->getOrderBy();
-        $pagination = $this->getPagination();    
-
+        $pagination = $this->getPagination();
         $search = $this->getSearch();
-        // var_dump($search);
-        $productos = $this->model->getProductsWWWW($orderBy, $order, $pagination, $search);
-
-        // var_dump($productos);
+        
+        $productos = $this->model->getProducts($orderBy, $order, $pagination, $search);
         if (!empty($productos)){
             return $this->view->response($productos, 200);
         } else {
@@ -56,7 +43,6 @@ class ApiProductController{
                 'limit' => 10,
                 'offset' => 0
             );
-                        
             return $pagination;
         }
     }
