@@ -56,7 +56,7 @@ se edita segun el id del producto a actualizar
 ## MEtodo GET '*Usuarios*' 📗
 ej: `/api/token`
 
-En postman hay que ir al apartado de ***Authorization*** y seleccionar ***Basic Auth*** , en la parte de Username y Password hay que colocar un usuairo valido por luego hay que darle a SEND el cual nos dara el ***Token*** que necesitamos para seguir haciendo el PUT.
+En postman ***Authorization*** - ***Basic Auth*** Username y Password valido y luego nos dara el ***Token*** que necesitamos para seguir haciendo el PUT.
 
 ej:`/api/token/usuario/qwerty@qwerty.com`
 
