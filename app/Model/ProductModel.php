@@ -4,14 +4,42 @@ class ProductsModel {
     
     private $db;
     public function __construct() {
-        //$this->db = new PDO('mysql:host=localhost;'.'dbname=datasets_extesion;charset=utf8', 'root', '');
-         $this->db = new PDO('mysql:host=localhost;'.'dbname=apirest_ext;charset=utf8', 'apirest_ext', 'II*ZK/g0cD');
+        $this->db = new PDO('mysql:host=localhost;'.'dbname=api-dg;charset=utf8', 'root', '');
+        // $this->db = new PDO('mysql:host=localhost;'.'dbname=apirest_ext;charset=utf8', 'apirest_ext', 'II*ZK/g0cD');
+        //  $this->db = new PDO('mysql:host=localhost;'.'dbname=apirest_ext;charset=utf8', 'apirest_ext', 'II*ZK/g0cD');
     }
     
-    function getProducts() {
+    function getProducts() {        
         $query = $this->db->prepare('SELECT *
                                     FROM products                                    
                                     ORDER BY products.id ASC');
+        $query->execute();
+        $products = $query->fetchAll(PDO::FETCH_OBJ);
+        return $products;
+    }
+
+    function getProductsWWWW($orderBy, $order, $pagination, $search) {
+        if (isset($search['searchBy']) && isset($search['orderBy']) ) {  
+            $queryFiltering = 'WHERE products.' . $search['searchBy'] . ' LIKE "' . $search['filterBy'] . '"';            
+        } else {
+            $queryFiltering = '';
+        }
+        if (isset($orderBy)) {  
+            $queryOrdering = 'ORDER BY products.' . $orderBy . " " . $order . " ";            
+        } else {
+            $queryOrdering = 'ORDER BY products.id ASC ';
+        }
+        
+        if (isset($pagination)) {              
+            $queryPagination = "LIMIT " . $pagination["limit"] . " OFFSET " . $pagination["offset"];            
+        } 
+
+        $query = $this->db->prepare("SELECT * FROM products "
+                                    . $queryFiltering
+                                    . $queryOrdering
+                                    . $queryPagination
+                                    );
+                                    // var_dump($query);
         $query->execute();
         $products = $query->fetchAll(PDO::FETCH_OBJ);
         return $products;
@@ -49,14 +77,14 @@ class ProductsModel {
         return $categories;
     }
 
-    function getProductsBy($searchBy, $search) {
+    function getProductsBy($orderBy, $order) {
         $querys = [
             "place" => "WHERE place=$search",
             "id" => "WHERE id=$search",
             "category" => "WHERE category=$search",
             "sub_category" => "WHERE sub_category=$search"
         ];
-        $searchQuery = $querys[$searchBy];
+        $orderBy = $querys[$searchBy];
 
         $query = $this->db->prepare("SELECT products.*,category.name as name_category, sub_category.name as name_sub_category 
                                      FROM products 

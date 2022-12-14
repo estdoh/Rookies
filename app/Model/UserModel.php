@@ -4,12 +4,14 @@ class UserModel {
     private $db;
     public function __construct() {
         // $this->db = new PDO('mysql:host=localhost;'.'dbname=datasets_extesion;charset=utf8', 'root', '');
+        // $this->db = new PDO('mysql:host=localhost;'.'dbname=api-dg;charset=utf8', 'root', '');
+
         $this->db = new PDO('mysql:host=localhost;'.'dbname=apirest_ext;charset=utf8', 'apirest_ext', 'II*ZK/g0cD');
     }
 
     function getUser($email){
-        $query = $this->db->prepare('SELECT * FROM `users` WHERE email=?');
-        $query->execute(array($email));
+        $query = $this->db->prepare('SELECT * FROM users WHERE email=?');
+        $query->execute([$email]);
         $user = $query->fetch(PDO::FETCH_OBJ);
         return $user;
     }
@@ -22,7 +24,7 @@ class UserModel {
     }    
 
     function getUserById($id) {
-        $query = $this->db->prepare('SELECT * FROM users WHERE id_user =?');
+        $query = $this->db->prepare('SELECT * FROM `users` WHERE id_user =?');
         $query->execute(array($id));
         $userByID = $query->fetch(PDO::FETCH_OBJ);        
         return $userByID;       

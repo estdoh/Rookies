@@ -14,13 +14,98 @@ class ApiProductController{
 
     function getProducts(){
         $productos = $this->model->getProducts();
+        // var_dump($productos);
         if (!empty($productos)){
             return $this->view->response($productos, 200);
         } else {
             $this->view->response("no existen productos", 404);
         };
     }
-    
+
+    function getProductsWWW(){
+        $order = $this->getOrder();
+        $orderBy = $this->getOrderBy();
+        $pagination = $this->getPagination();    
+
+        $search = $this->getSearch();
+        // var_dump($search);
+        $productos = $this->model->getProductsWWWW($orderBy, $order, $pagination, $search);
+
+        // var_dump($productos);
+        if (!empty($productos)){
+            return $this->view->response($productos, 200);
+        } else {
+            $this->view->response("no existen productos C", 404);
+        };
+    }
+
+    function getPagination(){
+        if(!empty($_GET['page']) && !empty($_GET['limit'])){
+            $page = $_GET['page'];
+            $limit = $_GET['limit'];
+            $offset = ($page - 1) * $limit;   
+            $pagination = array (
+                'page' => $page,
+                'limit' => $limit,
+                'offset' => $offset
+            ); 
+            return $pagination;        
+        } else {
+            $pagination = array (
+                'page' => 1,
+                'limit' => 10,
+                'offset' => 0
+            );
+                        
+            return $pagination;
+        }
+    }
+
+    function getSearch(){
+        $search = [];
+        if(!empty($_GET['filterBy'])){
+            $filterBy = $_GET['filterBy'];
+            $search["filterBy"] = strval($filterBy);
+        } else {
+            $search = null;
+        }
+        if (!empty($_GET['searchBy'])){
+            $searchBy = $_GET['searchBy'];
+            $search["searchBy"] = strval($searchBy);
+        } else {
+            $search = null;
+        }
+            
+        return $search;       
+    }
+
+    function getOrder(){
+        if(!empty($_GET['order']) ){
+            $order = $_GET['order'];
+                if($order == 'ASC' || $order == 'asc'){
+                    return 'ASC';
+                } else if ($order == 'DESC' || $order == 'desc'){
+                    return 'DESC';
+                }            
+        } else {
+            return "ASC";
+        }
+    }
+
+    function getOrderBy (){
+        if(!empty($_GET['orderby'])){
+            $orderBy = $_GET['orderby'];
+            if($orderBy == 'id' || $orderBy == 'name' || $orderBy == 'price' || $orderBy == 'category'){
+               return $orderBy;
+            } else {
+                return 'id';
+            }
+        } else {
+            return 'id';
+        }
+    }
+
+
     function addProducts(){
         $newProducts = $this->model->getProducts();
         return $this->view->response($productos, 200);
@@ -89,6 +174,7 @@ class ApiProductController{
         $id = $params[':ID'];
         //agarro los datos de request (json)
         $body = $this->getBody();
+        echo $body;
         $product = $this->model->getProducts($id);
         // verifica si la tarea existe
         if (!empty($product)) {
@@ -98,4 +184,5 @@ class ApiProductController{
             $this->view->response("El producto no se pudo insertar", 404);
         };
     }
+
 }

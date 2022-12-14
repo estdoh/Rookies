@@ -17,16 +17,22 @@ class ApiUserController{
 
     function getToken($params = null){
         $userpass = $this->authHelper->getBasic();
+        $email = $userpass['user'];        
+        $password = $userpass['pass'];
+        
         // Obtengo el usuario de la base de datos
-        // $user = $this->model->getUser($email);
+        $userBD = $this->model->getUser($email);  
+        $hash = $userBD->password;
         $user = array("user"=>$userpass["user"]);
+        echo json_encode($user);
+        
         // Si el usuario existe y las contraseñas coinciden     
-        if(true /*!empty($user) && password_verify($password, $user->password)*/){
-            $token = $this->authHelper->createToken($user);
+        if(!empty($user) && password_verify($password, $hash)){
+            $token = $this->authHelper->createToken($userpass);
             // devolver un token
             $this->view->response(["token"=>$token], 200);
         } else {
-            $this->view->response("Usuario y contraseña incorrectos", 401);
+            $this->view->response("Usuario y contraseña incorrectos s", 401);
         }
     }
 
@@ -35,6 +41,7 @@ class ApiUserController{
         $id = $params[':ID'];
         $user = $this->authHelper->getUser();
         if($user){
+            // if(true){
             if($id == $user->sub){
                 $this->view->response($user, 200);
             } else {
@@ -43,5 +50,5 @@ class ApiUserController{
         } else {
             $this->view->response("Unauthorized", 401);
         }
-    }
+    }  
 }

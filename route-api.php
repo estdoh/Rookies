@@ -9,11 +9,13 @@ $router = new Router();
 
 // define la tabla de ruteo
 $router->addRoute('products', 'GET', 'ApiProductController', 'getProducts');
-// $router->addRoute('products/:ID', 'GET', 'ApiProductController', 'getProduct');
-$router->addRoute('products/:category', 'GET', 'ApiProductController', 'getProductsByCategory');
+$router->addRoute('productswww', 'GET', 'ApiProductController', 'getProductswww');
+$router->addRoute('products/:ID', 'GET', 'ApiProductController', 'getProduct');
+// $router->addRoute('products/:category', 'GET', 'ApiProductController', 'getProductsByCategory');
 $router->addRoute('products/:ID', 'DELETE', 'ApiProductController', 'deleteProduct');
 $router->addRoute('products', 'POST', 'ApiProductController', 'insertProduct');
 $router->addRoute('products/:ID', 'PUT', 'ApiProductController', 'editProduct');
+// $router->addRoute('productsup/:ID', 'PUT', 'ApiProductController', 'updateAll');
 
 $router->addRoute('customers', 'GET', 'ApiCustomerController', 'getCustomers');
 $router->addRoute('customers/:ID', 'GET', 'ApiCustomerController', 'getCustomer');

@@ -4,6 +4,10 @@ function base64url_encode($data) {
     return rtrim(strtr(base64_encode($data), '+/', '-_'), '=');
 }
 
+function base64url_decode($data) {
+    return rtrim(strtr(base64_decode($data), '+/', '-_'), '=');
+}
+
 class AuthApiHelper{
     private $key;
     public function __construct() {
@@ -16,7 +20,7 @@ class AuthApiHelper{
         if(strpos($header, 'Basic') === 0){
             // base64(user:password)
             $usrpass = explode(" ",$header)[1];
-            $usrpass = base64_decode($usrpass);
+            $usrpass = base64url_decode($usrpass);
             $usrpass = explode(":",$usrpass);
             if(count($usrpass) == 2){
                 $user = $usrpass[0];
@@ -32,20 +36,21 @@ class AuthApiHelper{
 
     function getUser($params = null){
         $header = $this->getHeader();
-        // Bearer eyJ0eXAiOiJKV1QiLCJhbGciOiJIUzI1NiJ9.eyJzdWIiOjEsIm5hbWUiOiJ1c3VhcmlvMSIsInJvbCI6WyJhZG1pbiIsIm90aGVyIl19.6mRGSZGxCeBuQWp5daMmkNbNMWeaQFzF77a7SCqNXuo
-        if(strpos($header,"Bearer") === 0){
+        // $bearer = 'Bearer eyJhbGciaUzI1NiIsInR5cCI6IkpXVCJ9.eyJzdWIiOjIxLCJuYW1lIjoiZ2FzdG9uQGRvaGVzdHVkaW8uY29tLmFyIiwicm9sIjpbImFkbWluIiwib3RoZXIiXX0.Vs_CA8EqAeD8T0sycW8JSAGWDsh1SD7IEDkfZup7g6U';
+        $qwer = strpos($header,'Bearer');
+        if($qwer === 0){
             $token = explode(" ", $header)[1];
-            $parts = explode (".", $token);
+            $parts = explode(".", $token);
             if (count($parts) === 3){
                 $header = $parts[0];
                 $payload = $parts[1];
                 $signature = $parts[2];
                 $new_signature = hash_hmac('SHA256', "$header.$payload", $this->key, true);
-                $new_signature = base64url_encode($new_signature);
+                $new_signature = base64url_encode($new_signature);                
                 if ($signature === $new_signature){
                     $payload = base64url_decode($payload);
-                    $payload = json_decode($payload);
-                    if(true /*$payload->exp < $now*/){
+                    $payload = json_decode($payload);                    
+                    if(true /* $payload->exp < $now */){
                         return $payload;
                     }
                 }
@@ -60,7 +65,7 @@ class AuthApiHelper{
             "typ" =>'JWT'            
         );
         $payload = array(
-            'sub' => 1,
+            'sub' => 21,
             'name' => $user["user"],
             'rol' => ["admin", "other"]
         );
@@ -72,7 +77,7 @@ class AuthApiHelper{
         $payload = base64url_encode(json_encode($payload));
 
         $signature = hash_hmac('SHA256', "$header.$payload", $this->key, true);
-        $signature = base64_encode($signature);
+        $signature = base64url_encode($signature);
 
         return "$header.$payload.$signature";
     }
@@ -85,6 +90,53 @@ class AuthApiHelper{
             return $_SERVER["HTTP_AUTHORIZATION"];
         }
         return null;
+    }
+
+     //inicia sesion.
+     static public function start() {
+        if (session_status() != PHP_SESSION_ACTIVE){
+            session_start();
+        }
+    }
+
+    static public function login($email, $rol,$user_id) {
+        self::start();
+        $_SESSION['IS_LOGGED'] = true;
+        $_SESSION['email'] = $email;
+        $_SESSION['rol'] = $rol;
+        $_SESSION['user_id'] = $user_id;
+    }
+
+    public static function checkLoggedInApi(){
+        self::start();
+        if(!isset($_SESSION["email"])){
+            return false;
+        }
+        return true;
+    }
+
+    public static function checkLoggedInAdminApi(){
+        self::start();
+        
+        if(!isset($_SESSION["email"])){
+            return false;
+        }        
+        if(!isset($_SESSION["rol"])){
+            return false;
+        }
+        if ($_SESSION["rol"] != "ADMIN" && $_SESSION["rol"] != "SUPER-ADMIN"){
+            return false;
+        }
+        return true;
+    }    
+
+    public static function checkLoggedOut(){
+        self::start();
+        if(isset($_SESSION['email'])){
+            header("Location: ". BASE_URL."");
+            return false;
+        }
+        return true;
     }
 
 }
