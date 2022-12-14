@@ -1,7 +1,5 @@
 # **Design Products**
 
-# El Recurso de products  📚
-
 ## METODO GET - endpoint 'api/products' 📗
 
 Trae todos los productos existentes
@@ -13,7 +11,7 @@ Trae todos los productos existentes
         "price": 0
         }
 
-## METODO GET - endpoint 'api/products/:ID' 📗
+### METODO GET - endpoint 'api/products/:ID' 📗
 Trae un product segun su ID
 
 ### Parametros URL 🔎
@@ -42,21 +40,20 @@ Para insertar un nuevo producto usar un JSON de este formato
 endpoint: `/api/product/3` 
 se elimina por el numero id del producto
 
-## METODO PUT '*products*' 📙
+## METODO PUT - endpoint '*products/:ID' 📙
 
-ej: `/api/product/3`
 se edita segun el id del producto a actualizar
         {
-        "category": "BRANDING",
-        "name": "BRANDING",
-        "description": "loremp ipsum",
-        "price": "0"
+        category: "BRANDING",
+        name: "BRANDING",
+        description: "loremp ipsum",
+        price: "0"
         }
 
 # El Recurso de Users, Categories y Customers se manejan igual a los anteriores 👨‍👩‍👧‍👦
 
 # El Recurso de Usuarios por meido de Autorizacion ✔️
-## Funcionalidades del recurso GET '*Usuarios*' 📗
+## MEtodo GET '*Usuarios*' 📗
 ej: `/api/token`
 
 En postman hay que ir al apartado de ***Authorization*** y seleccionar ***Basic Auth*** , en la parte de Username y Password hay que colocar un usuairo valido por luego hay que darle a SEND el cual nos dara el ***Token*** que necesitamos para seguir haciendo el PUT.
