@@ -1,14 +1,8 @@
 <?php
+require_once 'Conect.php';
 
-class ProductsModel {
-    
-    private $db;
-    public function __construct() {
-        $this->db = new PDO('mysql:host=localhost;'.'dbname=api-dg;charset=utf8', 'root', '');
-        // $this->db = new PDO('mysql:host=localhost;'.'dbname=apirest_ext;charset=utf8', 'apirest_ext', 'II*ZK/g0cD');
-        //  $this->db = new PDO('mysql:host=localhost;'.'dbname=apirest_ext;charset=utf8', 'apirest_ext', 'II*ZK/g0cD');
-    }
-    
+class ProductsModel extends Conectdb{
+
     function getProducts() {        
         $query = $this->db->prepare('SELECT *
                                     FROM products                                    

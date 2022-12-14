@@ -1,13 +1,8 @@
 <?php
+require_once 'Conect.php';
 
-class CategoryModel {
-    private $db;
-    public function __construct() {
-        // $this->db = new PDO('mysql:host=localhost;'.'dbname=datasets_extesion;charset=utf8', 'root', '');
-        $this->db = new PDO('mysql:host=localhost;'.'dbname=apirest_ext;charset=utf8', 'apirest_ext', 'II*ZK/g0cD');
-        // $this->db = new PDO('mysql:host=localhost;'.'dbname=apirest_ext;charset=utf8', 'apirest_dg', 'II*ZK/g0cD');
-    }  
-   
+class CategoryModel extends Conectdb{
+
     function getCategories() { 
         $query = $this->db->prepare('SELECT category.*,sub_category.name as name_sub_category 
                                     FROM category

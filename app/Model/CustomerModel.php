@@ -1,11 +1,7 @@
 <?php
+require_once 'Conect.php';
 
-class CustomerModel {    
-    private $db;
-    public function __construct() {
-        // $this->db = new PDO('mysql:host=localhost;'.'dbname=datasets_extesion;charset=utf8', 'root', '');
-        $this->db = new PDO('mysql:host=localhost;'.'dbname=apirest_ext;charset=utf8', 'apirest_ext', 'II*ZK/g0cD');
-    }
+class CustomerModel extends Conectdb{    
 
     function getCustomer($email){
         $query = $this->db->prepare('SELECT *
